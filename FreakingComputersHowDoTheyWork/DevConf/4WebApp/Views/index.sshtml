@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>_4WebApp</title>
+
+	<style type="text/css">
+
+		body {
+			text-align: center;
+		}
+
+	</style>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<!--<script src="@Path['~/Content/jquery-3.2.1.js']"></script>-->
+
+</head>
+<body>
+	<div>
+		<input type="text" name="a" id="a" value="3"> x
+		<input type="text" name="x" id="x" value="4"> +
+		<input type="text" name="b" id="b" value="5"> =
+		<span id="result"></span>
+	</div>
+	
+	<input type="submit" name="send" id="send">
+
+	<script>
+	$(document).ready(function(){
+		$("#send").click(function(e){
+			$.ajax({
+				type: "POST",
+				url: "/api",
+				data: { a: $("#a").val(), b: $("#b").val(), x: $("#x").val() },
+				success: function(response){
+					console.log(response);
+					$("#result").text(response);
+				},
+				error: function(response){
+					console.log(response);
+				}
+			});
+		});
+	});
+	</script>
+
+</body>
+</html>
