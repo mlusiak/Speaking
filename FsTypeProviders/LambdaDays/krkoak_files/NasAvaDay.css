@@ -1,0 +1,1534 @@
+﻿
+.sectionboxavaday .headerbox {
+    background-color: #CACAAE;
+    border: solid 1px #858569;
+}
+
+    .sectionboxavaday .headerbox td,
+    .sectionboxavaday .headerbox th,
+    .sectionboxavaday .bodybox {
+        padding-top: 0px;
+        background-color: #CACAAE;
+    }
+
+/*
+.sectionboxavaday .headerbox td, 
+.sectionboxavaday .headerbox th{color:#c00000}
+*/
+
+table.avadaytable {
+    border: none;
+    border-collapse: separate;
+    width: 100%;
+    background-color: #FFFFFF !important;
+}
+
+    table.avadaytable label {
+        cursor: pointer;
+    }
+
+    table.avadaytable .fareselect.selectedfare .label {
+        cursor: default;
+    }
+
+    table.avadaytable div.content {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    table.avadaytable span.currencyinfo {
+        font-weight: normal;
+        font-size: 11px;
+    }
+
+    table.avadaytable div.disabled {
+        color: #B4B49B;
+    }
+
+    table.avadaytable .hover {
+        cursor: pointer;
+    }
+
+        table.avadaytable .hover .label {
+            cursor: pointer;
+        }
+
+    table.avadaytable td.noresultbox {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: solid 1px #d9d9d9;
+        border-top: none;
+    }
+
+    table.avadaytable td {
+        font-size: 11px;
+    }
+
+    table.avadaytable thead th,
+    table.avadaytable thead td {
+        display: table-cell;
+    }
+
+    table.avadaytable thead th {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    table.avadaytable thead th,
+    table.avadaytable tbody td {
+        vertical-align: top;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    table.avadaytable tbody {
+        border-collapse: collapse;
+    }
+
+
+
+    /*Default width - FareSelect1 and FareSelect2 */
+    table.avadaytable .avadaycolgroup .col1 {
+        width: 20%;
+    }
+    /*{width:125px;}*/
+    table.avadaytable .avadaycolgroup .col2 {
+        width: 19.2%;
+    }
+    /*{width:120px;}*/
+    table.avadaytable .avadaycolgroup .col3 {
+        width: 29.76%;
+    }
+    /*{width:auto;}*/
+    table.avadaytable .avadaycolgroup .col4 {
+        width: 4.48%;
+    }
+    /*{width:28px}*/
+    table.avadaytable .avadaycolgroup .col5 {
+        width: 11.04%;
+    }
+    /*{width:69px}*/
+    table.avadaytable .avadaycolgroup .col6 {
+        width: 4.48%;
+    }
+    /*{width:28px}*/
+    table.avadaytable .avadaycolgroup .col7 {
+        width: 11.04%;
+    }
+/*{width:69px}*/
+
+/*FareSelect4 - 28+53 = 81px */
+.fareselect4 table.avadaytable .avadaycolgroup .col1 {
+    width: 17.6%;
+}
+/*{width:110px;}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col2 {
+    width: 16%;
+}
+/*{width:100px;}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col3 {
+    width: 14.56%;
+}
+/*{width:100px;}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col4 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col5 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col6 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col7 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col8 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col9 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col10 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect4 table.avadaytable .avadaycolgroup .col11 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+
+/*FareSelect4 - 28+53 = 81px */
+.fareselect3 table.avadaytable .avadaycolgroup .col1 {
+    width: 17.6%;
+}
+/*{width:110px;}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col2 {
+    width: 16%;
+}
+/*{width:100px;}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col3 {
+    width: 14.56%;
+}
+/*{width:100px;}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col4 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col5 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col6 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col7 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col8 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect3 table.avadaytable .avadaycolgroup .col9 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+
+
+
+.fareselect5 table.avadaytable .avadaycolgroup .col1 {
+    width: 17.6%;
+}
+/*{width:110px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col2 {
+    width: 16%;
+}
+/*{width:100px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col3 {
+    width: 14.56%;
+}
+/*{width:100px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col4 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col5 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col6 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col7 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col8 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col9 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col10 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col11 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col1 {
+    width: 17.6%;
+}
+/*{width:110px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col2 {
+    width: 16%;
+}
+/*{width:100px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col3 {
+    width: 14.56%;
+}
+/*{width:100px;}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col4 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col5 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col6 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col7 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col8 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col9 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col10 {
+    width: 4.48%;
+}
+/*{width:28px}*/
+.fareselect5 table.avadaytable .avadaycolgroup .col11 {
+    width: 8.48%;
+}
+/*{width:53px}*/
+
+.fareselect5b table.avadaytable .avadaycolgroup .col1 {
+    width: 18%;
+}
+/*{width:110px;}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col2 {
+    width: 18%;
+}
+/*{width:100px;}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col3 {
+    width: 4.40%;
+}
+/*{width:28px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col4 {
+    width: 8.40%;
+}
+/*{width:53px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col5 {
+    width: 4.40%;
+}
+/*{width:28px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col6 {
+    width: 8.40%;
+}
+/*{width:53px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col7 {
+    width: 4.40%;
+}
+/*{width:28px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col8 {
+    width: 8.40%;
+}
+/*{width:53px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col9 {
+    width: 4.40%;
+}
+/*{width:28px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col10 {
+    width: 8.4%;
+}
+/*{width:53px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col11 {
+    width: 4.4%;
+}
+/*{width:28px}*/
+.fareselect5b table.avadaytable .avadaycolgroup .col12 {
+    width: 8.4%;
+}
+/*{width:53px}*/
+
+
+table.avadaytable th.departureheadercell div.content,
+table.avadaytable td.depdest div.content,
+table.avadaytable th.firstrowheadercell div.content,
+table.avadaytable td.routeinfotextcell div.content {
+    padding-left: 11px;
+}
+
+table.avadaytable tbody .rowinfo1 td {
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+    table.avadaytable tbody .rowinfo1 td.inputselect {
+        padding-top: 8px;
+    }
+
+table.avadaytable tbody .rowinfo2 td {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+table.avadaytable tbody .ancillaryrow td,
+table.avadaytable tbody .arrowrow td {
+    padding: 0px;
+}
+
+table.avadaytable tbody .emphasize {
+    font-weight: bold;
+}
+
+table.avadaytable tr.lastrow th.departureheadercell,
+table.avadaytable tr.lastrow th.arrivalheadercell,
+table.avadaytable tr.lastrow th.detailsheadercell,
+table.avadaytable tbody tr.lastrow td.depdest,
+table.avadaytable tbody tr.lastrow td.arrdest,
+table.avadaytable tbody tr.lastrow td.duration,
+table.avadaytable tbody td.avafareinfo,
+table.avadaytable tbody tr.lastrow td.routeinfotextcell {
+    border-bottom: solid 1px #d9d9d9;
+    /* background-image: url(../images/ava/bg_dep_arr_duratin.jpg); */
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+/*table.avadaytable tbody tr.selectedrow.lastrow td.depdest,
+table.avadaytable tbody tr.selectedrow.lastrow td.arrdest,
+table.avadaytable tbody tr.selectedrow.lastrow td.duration,
+table.avadaytable tbody tr.selectedrow.lastrow td.duration,
+table.avadaytable tbody tr.selectedrow.lastrow td.avafareinfo{border-bottom:none}*/
+
+table.avadaytable .startcell {
+    border-left: solid 1px #d9d9d9;
+    border-bottom: none 0px;
+}
+
+table.avadaytable .endcell {
+    border-right: solid 1px #d9d9d9;
+    border-bottom: none 0px;
+}
+
+table.avadaytable tbody .emphasize {
+    font-weight: bold;
+}
+
+table.avadaytable tr.rowinfo1 td.depdest,
+table.avadaytable tr.rowinfo1 td.arrdest,
+table.avadaytable tr.rowinfo1 td.duration {
+    vertical-align: bottom;
+}
+
+
+table.avadaytable td.inputselect.grouptravel {
+    text-align: center;
+    padding-left: 25px;
+}
+
+table.avadaytable td.fareselect.selectedfare,
+table.avadaytable td.inputselect.selectedfare,
+table.avadaytable td.inputselect.avafareinfo.selectedfare,
+.fareselect2 table.avadaytable td.fareselect.selectedfare,
+.fareselect2 table.avadaytable td.inputselect.selectedfare,
+.fareselect2 .avadaytable td.inputselect.avafareinfo.selectedfare,
+.fareselect3 table.avadaytable td.fareselect.selectedfare,
+.fareselect3 table.avadaytable td.inputselect.selectedfare,
+.fareselect3 .avadaytable td.inputselect.avafareinfo.selectedfare {
+    background: none;
+    border-bottom: none;
+    background-color: #f2f2f2;
+}
+
+table.avadaytable td.avafareinfo {
+    padding-bottom: 5px;
+    border-top: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+table.avadaytable .rowspacer td.col1,
+table.avadaytable td.routeinfotextcell,
+table.avadaytable th.firstrowheadercell,
+table.avadaytable th.departureheadercell,
+table.avadaytable td.depdest {
+    border-left: solid 1px #d9d9d9;
+}
+
+table.avadaytable td.nofare,
+table.avadaytable td.inputselect {
+    border-left: solid 1px #d9d9d9;
+}
+
+table.avadaytable td.nofare,
+table.avadaytable td.fareselect,
+table.avadaytable td.inputselect {
+    vertical-align: middle;
+}
+
+    table.avadaytable td.inputselect.avafareinfo {
+        vertical-align: top;
+    }
+
+table.avadaytable td.nofare {
+    text-align: center;
+}
+
+table.avadaytable td.inputselect input {
+    cursor: pointer;
+    margin: 0px;
+    height: 13px;
+    padding: 0 !important;
+    width: 13px;
+}
+
+table.avadaytable td.fareselect label {
+    float: right;
+    font-size: 13px;
+}
+
+table.avadaytable td.fareselect .content {
+    padding-right: 10px;
+}
+
+table.avadaytable td.inputselect .content {
+    padding-right: 10px;
+}
+
+/* AVADAY FARE AND ROUTE INFO ROWS */
+
+table.avadaytable td.ssrinfoimagecell {
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    vertical-align: middle;
+    text-align: left;
+}
+
+table.avadaytable td .fewseatslefttext {
+    color: #A10C0C;
+}
+
+table.avadaytable td .fewseatsleftfare {
+    font-weight: bold;
+}
+
+table.avadaytable td .seatsokfare {
+    font-weight: bold;
+}
+
+table.avadaytable th .fareproductinfo {
+    color: #002C6A;
+    font-weight: normal;
+    padding-top: 1px;
+}
+
+table.avadaytable td .routeinfotext {
+    color: #5F6C6A; /*#002C6A;*/
+}
+
+table.avadaytable th {
+    font-size: 13px;
+}
+
+    table.avadaytable th.standardfareheadercell,
+    table.avadaytable th.premiumfareheadercell {
+        color: #FFFFFF;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+
+table.avadaytable .standardlowfareheadercell,
+table.avadaytable .idfareheadercell,
+table.avadaytable .standardflexheadercell,
+table.avadaytable .premiumlowfareheadercell,
+table.avadaytable .premiumflexheadercell {
+    border-left: solid 1px #d9d9d9;
+    border-bottom: solid 1px #d9d9d9;
+    text-align: center;
+}
+
+/*STANDARD FARE */
+table.avadaytable th.standardfareheadercell,
+table.avadaytable th.grouptravelheadercell {
+    background-color: #d14c51;
+    background-image: url(../images/ava/bgStandard.gif);
+    background-repeat: repeat-x;
+    border-left: solid 1px #e92333;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+/**/
+
+table.avadaytable td.standardlowfareheadercell,
+table.avadaytable td.standardflexheadercell,
+table.avadaytable td.grouptravelheadercell {
+    background-color: #f2f1ef;
+    background-image: url(../images/ava/bgStandardFare.gif);
+    background-repeat: repeat-x;
+}
+
+table.avadaytable td.standardlowfare,
+table.avadaytable td.standardflex {
+    /*background-color: #fcfcfa*/
+}
+
+table.avadaytable td.grouptravel,
+table.avadaytable td.avafareinfo.standardlowfare,
+table.avadaytable td.avafareinfo.standardflex {
+    /*background-color: #fffcfb;*/
+    /*background-image: url(../images/ava/bgStandardFareCell.gif);*/
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+.fareselect2 table.avadaytable td.standardlowfare {
+    /*background-color: #fcf7f7*/
+}
+
+.fareselect2 table.avadaytable td.standardlowfareheadercell {
+    /*background-color: #fcf7f7;*/
+    /*background-image: url(../images/ava/bgShLowFare.gif);*/
+}
+
+.fareselect2 table.avadaytable td.avafareinfo.standardlowfare {
+    /*background-color: #fcf7f7;*/
+    /*background-image: url(../images/ava/bgShLowFareCell.gif);*/
+}
+
+.fareselect3 table.avadaytable td.standardlowfare {
+    /*background-color: #fcf7f7*/
+}
+
+.fareselect3 table.avadaytable td.standardlowfareheadercell {
+    /*background-color: #fcf7f7;*/
+    /*background-image: url(../images/ava/bgShLowFare.gif);*/
+}
+
+.fareselect3 table.avadaytable td.avafareinfo.standardlowfare {
+    /*background-color: #fcf7f7;*/
+    /* background-image: url(../images/ava/bgShLowFareCell.gif); */
+}
+
+.fareselect3 table.avadaytable td.standardlowfareplus {
+    /*background-color: #fcf7f7*/
+}
+
+.fareselect3 table.avadaytable td.standardlowfareplusheadercell {
+    /*background-color: #fcf7f7;*/
+    /*background-image: url(../images/ava/bgShLowFare.gif);*/
+}
+
+.fareselect3 table.avadaytable td.avafareinfo.standardlowfareplus {
+    /*background-color: #fcf7f7;*/
+    /* background-image: url(../images/ava/bgShLowFareCell.gif);*/
+}
+
+
+/*PREMIUM FARE */
+
+table.avadaytable th.premiumfareheadercell {
+    background-color: #bcafa6;
+    background-image: url(../images/ava/bgPremium.gif);
+    background-repeat: repeat-x;
+    border-left: solid 1px #a79788;
+}
+
+table.avadaytable td.premiumlowfareheadercell,
+table.avadaytable td.premiumflexheadercell {
+    /*background-color:#e8e9e4;*/
+    /* background-image: url(../images/ava/bgPremiumFare.gif); */
+    background-repeat: repeat-x;
+}
+
+table.avadaytable td.premiumflex,
+table.avadaytable td.premiumlowfare {
+    /*background-color: #fbfbf9*/
+}
+
+table.avadaytable td.avafareinfo.premiumflex,
+table.avadaytable td.avafareinfo.premiumlowfare { /*background-color: #fbfbf9;*/
+    /* background-image: url(../images/ava/bgPremiumFareCell.gif); */
+    background-repeat: repeat-x;
+}
+
+table.avadaytable th.departureheadercell,
+table.avadaytable th.detailsheadercell,
+table.avadaytable th.arrivalheadercell {
+    vertical-align: bottom;
+    font-size: 11px;
+    padding-bottom: 0px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+    /* background-image: url(../images/ava/bg_dep_arr_duratin_header.jpg);*/
+    border-bottom: solid 1px #d9d9d9;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    padding-bottom: 3px;
+}
+
+/* ID FARE */
+table.avadaytable th.idfareheadercell {
+    background-color: #fd89d7;
+}
+
+table.avadaytable td.idfareheadercell {
+    background-color: #fcecfc;
+}
+
+
+table.avadaytable .radio-ajax {
+    margin-right: 10px;
+}
+
+table.avadaytable td.inputselect {
+    text-align: right;
+}
+
+table.avadaytable td.select1headercell,
+table.avadaytable td.select2headercell,
+table.avadaytable td.select3headercell,
+table.avadaytable td.select4headercell {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+table.avadaytable .select1headercell img,
+table.avadaytable .select2headercell img,
+table.avadaytable .select3headercell img,
+table.avadaytable .select4headercell img {
+    float: right;
+}
+
+table.avadaytable .emphasize {
+    font-size: 13px;
+}
+
+table.avadaytable .detailsheadercell {
+}
+
+table.avadaytable td.grouptravel {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+table.avadaytable ul.flightinfolist {
+    padding: 0px;
+    margin: 0px;
+}
+
+    table.avadaytable ul.flightinfolist li.hover {
+        text-decoration: underline;
+    }
+
+table.avadaytable li.tooltipclick {
+    color: #5F6C6A;
+    float: left;
+    clear: left;
+    background-image: url("../Images/Ava/more_info.gif");
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/*table.avadaytable td.routeinfotextcell.lastrow,*/
+
+table.avadaytable td.depdest.lastrow,
+table.avadaytable td.arrdest.lastrow,
+table.avadaytable td.duration.lastrow,
+table.avadaytable td.routeinfotextcell.lastrow {
+    background-color: #ffffff;
+    /* background-image: url(../images/ava/bg_dep_arr_duratin.jpg); */
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+
+table.avadaytable td.arrowselectedfare {
+}
+
+table.avadaytable div.arrowcontainer {
+    position: absolute;
+}
+
+table.avadaytable div.arrowcontainer,
+table.avadaytable div.arrow {
+    height: 70px;
+    width: 93px;
+}
+
+table.avadaytable div.arrow {
+    background-image: url(../images/ava/arrowSelectedFare.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+/* Fare Families legend header cell*/
+table.avadaytable th.firstrowheadercell {
+    vertical-align: bottom;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+    padding-bottom: 3px;
+}
+
+
+/* FARE FAMILIES */
+
+tr.comparerow {
+    padding-bottom: 0px;
+}
+
+th.comparepremiumheadercell {
+    vertical-align: bottom !important;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+    padding-bottom: 0px !important;
+    border-bottom: solid 0px #b6a0a0;
+}
+
+th.comparerestrictedheadercell {
+    vertical-align: bottom !important;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+    padding-bottom: 0px !important;
+    border-bottom: solid 0px #d14c51;
+}
+
+
+div.uparrow {
+    height: 20px;
+    width: 60px;
+    background-image: url(../images/ava/transuparrow.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -18px;
+    left: 15px;
+}
+
+tr.upsellrow {
+    height: 25px;
+    vertical-align: bottom;
+    border-left: solid 1px #b6a0a0;
+    border-top: none;
+    border-right: solid 1px #b6a0a0;
+    border-bottom: solid 1px #b6a0a0;
+    background-color: #EFEEE6;
+}
+
+
+.fareselect4 table.avadaytable div.arrowcontainer {
+    width: 82px;
+}
+
+.fareselect4 table.avadaytable div.arrow {
+    width: 82px;
+    background-image: url(../images/ava/arrowSelectedFare4.png);
+}
+
+.fareselect4 table.avadaytable td.fareselect .content {
+    padding-right: 5px;
+}
+
+.fareselect4 table.avadaytable td.inputselect {
+    text-align: center;
+}
+
+.fareselect2 table.avadaytable div.arrowcontainer,
+.fareselect2 table.avadaytable div.arrow {
+    width: 97px;
+}
+
+
+
+/*IE 7 hide arrow row */
+* + html table.avadaytable tr.arrowrow {
+    display: none !Important;
+}
+
+
+
+/* semitransparent border instead */
+/*border: solid #ccc 10px; /*for older browsers*/
+/*border: solid rgba(255,255,255,0.3) 10px; /*transparent border*/
+td.ancillaryinfo {
+    border-left: solid 1px #b6a0a0;
+    border-top: none;
+    border-right: solid 1px #b6a0a0;
+    border-bottom: solid 1px #b6a0a0;
+    background-color: #ffffff;
+}
+
+div.ancillarycontainer {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-image: url(../images/ava/bgArrowBorderTop.png);
+    background-repeat: repeat-x;
+}
+
+
+table.avadaytable tr.ancillaryrow td.standardlowfare,
+table.avadaytable tr.ancillaryrow td.standardflex {
+    background-image: url(../images/ava/bgAircraftDefaultRE.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+table.avadaytable tr.boeing787 td.standardlowfare,
+table.avadaytable tr.boeing787 td.standardflex {
+    background-image: url(../images/ava/bgAircraft787StandardCabinRowExpanded.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+table.avadaytable tr.boeing737-800.ancillaryrow td.standardlowfare,
+table.avadaytable tr.boeing737-800.ancillaryrow td.standardflex {
+    background-image: url(../images/ava/bgAircraft737800RE.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+table.avadaytable tr.ancillaryrow td.premiumlowfare,
+table.avadaytable tr.ancillaryrow td.premiumflex {
+    background-image: url(../images/ava/bgAircraftDefaultRE.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+table.avadaytable tr.boeing787.ancillaryrow td.premiumlowfare,
+table.avadaytable tr.boeing787.ancillaryrow td.premiumflex {
+    background-image: url(../images/ava/bgAircraft787PremiumRowExpanded.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+table.ancillarytable {
+    width: 100%;
+}
+
+    table.ancillarytable td.flightinfocellspacer {
+        width: 10px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+    }
+
+    table.ancillarytable td.flightinfocell {
+        width: 400px;
+        padding-right: 0px;
+        background-color: transparent;
+    }
+
+    table.ancillarytable td.bundleinfocell {
+        width: 190px;
+    }
+
+    table.ancillarytable.ancillarytablewithbundle td.flightinfocell {
+        padding-right: 0px;
+        width: 200px;
+    }
+
+    table.ancillarytable .ancillaryitembox td.layoutcellspacer {
+        width: 5px;
+    }
+
+.ancillarybox {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .ancillarybox .header {
+        font-weight: bold;
+        font-size: 13px;
+        padding-bottom: 3px;
+        color: #ca0000;
+    }
+
+    .ancillarybox .ancillaryflightinfo {
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+
+    .ancillarybox .bodybox {
+        padding: 0px;
+        border: none;
+        background: none;
+    }
+
+    .ancillarybox table.pagelayouttable {
+        margin-top: 5px;
+    }
+
+    .ancillarybox .disclaimerbox {
+        margin-top: 10px;
+    }
+
+.sectionboxavaday .ancillarybox .bodybox {
+    background: none;
+}
+
+.ancillaryitembox,
+.ancillaryitembox .footerbox {
+    background-color: #fafaf8;
+}
+
+    .ancillaryitembox .headerbox {
+        text-align: left;
+        border: solid 1px #d9d9d9;
+        background-color: #fcfcfa; /* Old browsers */
+    }
+
+table.ancillarytable .ancillaryitembox .headerbox {
+    padding: 5px;
+    padding-top: 3px;
+    padding-left: 8px;
+    background-image: url(../Images/Ava/bgAncillaryContentBox.jpg);
+    background-repeat: repeat-x;
+}
+
+    table.ancillarytable .ancillaryitembox .headerbox input[type="checkbox"] {
+        margin: 0px;
+        border: none;
+        border-radius: 0 0 0 0 !important;
+        height: 13px;
+        padding: 0 !important;
+    }
+
+td.standardlowfare table.ancillarytablewithbundle div.ancillaryitembox div.headerbox {
+    height: 43px;
+}
+
+.ancillaryitembox .headerbox th,
+.ancillaryitembox .headerbox td {
+    color: #3D3C2F;
+}
+
+.ancillaryitembox .headerbox table.layouttable {
+    margin-top: 5px;
+}
+
+    .ancillaryitembox .headerbox table.layouttable td {
+        background: none;
+    }
+
+.ancillaryitembox .headerbox .input,
+.ancillaryitembox .headerbox .price {
+    text-align: right;
+}
+
+.ancillaryitembox .headerbox .description {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.ancillaryitembox .bodybox {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: none;
+}
+
+.ancillaryitembox .footerbox {
+    padding: 0px;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.ancillaryitembox .footer {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ancillaryitembox ul {
+    margin: 0;
+    padding-left: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ancillaryitembox li {
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style-image: url(../Images/Ava/checked_small_readonly.gif);
+}
+
+.ancillaryitembox.plusbundle ul {
+    padding-left: 0px;
+}
+
+/*.ancillaryitembox.flex li {padding-top: 5px;padding-left: 0px;margin-left: 0px;list-style-image: url(../Images/Ava/plus_icon.gif)}*/
+.ancillaryitembox.plusbundle li {
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    background-image: url("../Images/Ava/plus_icon.gif");
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+
+.standardlowfare table.ancillarytable .ancillaryitembox.plusbundle .headerbox,
+table.ancillarytable .ancillaryitembox.plusbundle .headerbox {
+    border: solid 1px #943231;
+    border-top-color: #f78881;
+    background-color: #c63e3b;
+    background-image: url(../images/Ava/bgPlusBundleBox.gif);
+    background-repeat: no-repeat;
+}
+
+.ancillaryitembox.plusbundle .headerbox td {
+    color: #FFFFFF;
+    vertical-align: bottom;
+}
+
+    .ancillaryitembox.plusbundle .headerbox td.label {
+        width: 80%;
+    }
+
+    .ancillaryitembox.plusbundle .headerbox td.input {
+        width: 20%;
+    }
+
+    .ancillaryitembox.plusbundle .headerbox td.description,
+    .ancillaryitembox.plusbundle .headerbox td.price {
+        width: 50%;
+        height: 25px;
+    }
+
+    .ancillaryitembox.plusbundle .headerbox td.price {
+        font-size: 13px;
+    }
+
+    .ancillaryitembox.plusbundle .headerbox td.description {
+        font-size: 11px;
+    }
+
+.ancillaryitembox.plusbundle .headerbox {
+    cursor: pointer;
+}
+
+.standardlowfare table.ancillarytable .ancillaryitembox.plusbundle.bundlechecked .headerbox,
+table.ancillarytable .ancillaryitembox.plusbundle.bundlechecked .headerbox {
+    background-image: url(../images/Ava/bgPlusBundleBox_down.gif);
+    border-left-color: #790907;
+    border-right-color: #790907;
+    border-top-color: #790907;
+}
+
+.ancillaryitembox.plusbundle.bundlechecked .headerbox {
+}
+
+.ancillaryitembox .bodybox .body {
+    min-height: 114px;
+}
+
+.ancillarytablewithbundle .bodybox .body {
+    min-height: 92px;
+}
+
+table.ancillaryitemheadertable {
+    width: 100%;
+}
+
+    table.ancillaryitemheadertable td.label {
+        font-size: 13px;
+    }
+
+table.avadaytable tbody table.ancillaryitemheadertable td.content {
+    text-align: right;
+    font-weight: normal;
+    font-size: 11px;
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+table.avadaytable tbody td.standardlowfare table.ancillarytablewithbundle table.ancillaryitemheadertable td.content {
+    height: 25px;
+}
+
+table.ancillaryitemlisttable {
+    width: 100%;
+}
+
+    table.ancillaryitemlisttable td.flightinfoitemcell {
+        width: 49%;
+        padding-right: 0px;
+        background-color: transparent;
+    }
+
+    table.ancillaryitemlisttable td.flightinfoitemspacercell {
+        width: 1%;
+        padding-right: 0px;
+        background-color: transparent;
+    }
+
+    table.ancillaryitemlisttable td.bundleitemcell {
+        width: 50%;
+        background-color: transparent;
+    }
+
+
+/*priority background*/
+table.avadaytable tr.priority1 td.routeinfotextcell,
+table.avadaytable tr.priority1 td.depdest,
+table.avadaytable tr.priority1 td.arrdest,
+table.avadaytable tr.priority1 td.duration,
+table.avadaytable tr.priority1.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority1.lastrow td.depdest,
+table.avadaytable tr.priority1.lastrow td.arrdest,
+table.avadaytable tr.priority1.lastrow td.duration {
+    background: none;
+    background-color: #F5F5F0;
+}
+
+table.avadaytable tr.priority2 td.routeinfotextcell,
+table.avadaytable tr.priority2 td.depdest,
+table.avadaytable tr.priority2 td.arrdest,
+table.avadaytable tr.priority2 td.duration,
+table.avadaytable tr.priority2.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority2.lastrow td.depdest,
+table.avadaytable tr.priority2.lastrow td.arrdest,
+table.avadaytable tr.priority2.lastrow td.duration {
+    background: none;
+    background-color: #FFFFCC;
+}
+
+table.avadaytable tr.priority3 td.routeinfotextcell,
+table.avadaytable tr.priority3 td.depdest,
+table.avadaytable tr.priority3 td.arrdest,
+table.avadaytable tr.priority3 td.duration,
+table.avadaytable tr.priority3.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority3.lastrow td.depdest,
+table.avadaytable tr.priority3.lastrow td.arrdest,
+table.avadaytable tr.priority3.lastrow td.duration {
+    background: none;
+    background-color: #E0EBFF;
+}
+
+table.avadaytable tr.priority4 td.routeinfotextcell,
+table.avadaytable tr.priority4 td.depdest,
+table.avadaytable tr.priority4 td.arrdest,
+table.avadaytable tr.priority4 td.duration,
+table.avadaytable tr.priority4.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority4.lastrow td.depdest,
+table.avadaytable tr.priority4.lastrow td.arrdest,
+table.avadaytable tr.priority4.lastrow td.duration {
+    background: none;
+    background-color: #DBFFC6;
+}
+
+table.avadaytable tr.priority5 td.routeinfotextcell,
+table.avadaytable tr.priority5 td.depdest,
+table.avadaytable tr.priority5 td.arrdest,
+table.avadaytable tr.priority5 td.duration,
+table.avadaytable tr.priority5.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority5.lastrow td.depdest,
+table.avadaytable tr.priority5.lastrow td.arrdest,
+table.avadaytable tr.priority5.lastrow td.duration {
+    background: none;
+    background-color: #E2E2E2;
+}
+
+table.avadaytable tr.priority6 td.routeinfotextcell,
+table.avadaytable tr.priority6 td.depdest,
+table.avadaytable tr.priority6 td.arrdest,
+table.avadaytable tr.priority6 td.duration,
+table.avadaytable tr.priority6.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority6.lastrow td.depdest,
+table.avadaytable tr.priority6.lastrow td.arrdest,
+table.avadaytable tr.priority6.lastrow td.duration {
+    background: none;
+    background-color: #FFDAD3;
+}
+
+table.avadaytable tr.priority7 td.routeinfotextcell,
+table.avadaytable tr.priority7 td.depdest,
+table.avadaytable tr.priority7 td.arrdest,
+table.avadaytable tr.priority7 td.duration,
+table.avadaytable tr.priority7.lastrow td.routeinfotextcell,
+table.avadaytable tr.priority7.lastrow td.depdest,
+table.avadaytable tr.priority7.lastrow td.arrdest,
+table.avadaytable tr.priority7.lastrow td.duration {
+    background: none;
+    background-color: #FFFFFF;
+}
+/*priority background end*/
+table.avadaytable span.offsetdays {
+    font-weight: normal;
+    font-size: 11px;
+    cursor: help;
+}
+
+div.fewseatslefttext,
+div.routerestrictions {
+    padding: 5px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.upsellcell {
+    background-color: #f2f2f2;
+    border-left: solid 1px #d9d9d9;
+    border-right: solid 1px #d9d9d9;
+    border-bottom: solid 1px #c9c9c9;
+}
+
+    .upsellcell .box {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 11px;
+        text-align: left;
+    }
+
+div.uparrowgif1 {
+    height: 50px;
+    width: 60px;
+    background-image: url(../images/ava/arrows/1.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -28px;
+    left: -14px;
+}
+
+div.uparrow1 {
+    height: 12px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 18px;
+}
+
+div.uparrow2, div.uparrow2LH
+{
+    height: 23px;
+    width: 27px;
+    background-image: url(../images/ava/arrows/2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -9px;
+    left: -0px;
+}
+
+div.uparrow3 {
+    height: 23px;
+    width: 41px;
+    background-image: url(../images/ava/arrows/3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -14px;
+    left: 28px;
+}
+
+div.uparrow4, div.uparrow4LH {
+    height: 23px;
+    width: 23px;
+    background-image: url(../images/ava/arrows/4.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -7px;
+    left: -14px;
+}
+
+div.uparrow5, div.uparrow5LH {
+    height: 23px;
+    width: 27px;
+    background-image: url(../images/ava/arrows/5.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -15px;
+    left: 1px;
+}
+
+div.uparrow6, div.uparrow6LH
+{
+    height: 21px;
+    width: 30px;
+    background-image: url(../images/ava/arrows/6.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+div.uparrow7 {
+    height: 27px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/7.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 18px;
+}
+
+div.uparrow8 {
+    height: 21px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/8.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 18px;
+}
+
+div.uparrow9 {
+    height: 12px;
+    width: 93px;
+    background-image: url(../images/ava/arrows/9.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+div.uparrow10 {
+    height: 12px;
+    width: 93px;
+    background-image: url(../images/ava/arrows/10.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+
+div.uparrow1LH {
+    height: 12px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 11px;
+}
+
+
+div.uparrow3LH {
+    height: 23px;
+    width: 41px;
+    background-image: url(../images/ava/arrows/3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -14px;
+    left: 22px;
+}
+
+
+
+
+div.uparrow7LH {
+    height: 27px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/7.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 12px;
+}
+
+div.uparrow8LH {
+    height: 21px;
+    width: 61px;
+    background-image: url(../images/ava/arrows/8.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: 12px;
+}
+
+div.uparrow9LH {
+    height: 12px;
+    width: 93px;
+    background-image: url(../images/ava/arrows/9.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: -6px;
+}
+
+div.uparrow10LH {
+    height: 12px;
+    width: 93px;
+    background-image: url(../images/ava/arrows/10.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: -12px;
+    left: -6px;
+}
+.upsellbutton {
+    background: #555555;
+    border-left: 2px solid #777777;
+    border-top: 2px solid #777777;
+    border-right: 2px solid #444444;
+    border-bottom: 2px solid #444444;
+    font-family: Arial,sans-serif,Helvetica;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 8px;
+}
+    .upsellbutton:hover,
+    .upsellbutton12:hover {
+        text-decoration: none;
+        background: #505050;
+    }
+.upsellbutton12 {
+    background: #555555;
+    border-left: 2px solid #777777;
+    border-top: 2px solid #777777;
+    border-right: 2px solid #444444;
+    border-bottom: 2px solid #444444;
+    font-family: Arial,sans-serif,Helvetica;
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 8px;
+}

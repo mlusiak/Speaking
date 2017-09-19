@@ -1,0 +1,4102 @@
+﻿body
+{
+    margin: 0px;
+    color: #3D3C2F;
+    font-family: Arial,Sans-Serif,Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    background-image: url(../Images/Background/2_0/background.gif);
+    background-repeat: repeat-x;
+    background-color: #FBF4EE;
+    background-position: top left;
+}
+input, select, textarea, td, th
+{
+    font-family: Arial,Sans-Serif,Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    color: #3D3C2F;
+}
+td, th
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    color: #e23130;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.disabled, a.disabled:hover
+{
+    color: #777777;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+table
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+}
+img
+{
+    border: 0px;
+}
+label[for]
+{
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6
+{
+    color: #E23130;
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+}
+h3, h4, h5, h6
+{
+    color: #3D3C2F;
+}
+h2
+{
+    font-size: 16px;
+}
+h3
+{
+    font-size: 14px;
+}
+h4
+{
+    font-size: 13px;
+}
+h5, h6
+{
+    font-size: 12px;
+}
+p
+{
+    margin: 0.5em 0px 0.5em 0px;
+}
+em.emphasize
+{
+    font-weight: bold;
+}
+hr
+{
+    border: 1px inset;
+    color: gray;
+    display: block;
+    height: 2px;
+    margin: 0.5em auto;
+}
+/*===================================*/
+/*        MASTERPAGE STYLES          */
+/*===================================*/
+.servername
+{
+    display: none;
+    color: #FFFFFF;
+}
+.hidden
+{
+    display: none;
+}
+
+/*pagecontent*/
+.pagecontentcontainer .pagecontentbox
+{
+    vertical-align: top;
+    width: 982px;
+    margin: 0 auto 0 auto;
+}
+.pagecontentcontainer .pagecontent
+{
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    min-height: 500px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+}
+.pagecontentcontainer .pagebodybox
+{
+    padding: 15px 20px 10px 20px;
+    margin: 0;
+}
+.startpage .pagecontentcontainer .pagebodybox
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.infopage .pagecontentcontainer .pagebodybox
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.webpart3colpage .pagecontentcontainer .pagebodybox
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*pagecontent end*/
+
+/*pageheader*/
+.pagecontentcontainer .pageheaderbox
+{
+    color: #FFFFFF !important; /*background-color: #e13130;*/ /*background-color: #FFFFFF;*/ /*border-bottom: 1px solid #A50021;*/
+}
+.pagecontentcontainer .pageheaderbox .pageheader
+{
+    background-color: #f42536;
+    background-image: url("../Images/Background/2_0/header.gif");
+    background-repeat: no-repeat;
+    cursor: default;
+    width: 982px;
+    margin: 15px auto 0 auto;
+}
+
+.pagecontentcontainer .pageheadertopbox, .pagecontentcontainer .pagemenubox
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pagecontentcontainer .pageheaderbox a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.pagecontentcontainer .pageheaderbox a:hover
+{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.pagecontentcontainer .pageheaderbox .pageheadertopbox .pagegloballinksbox
+{
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url("/Images/Background/2_0/header_inset.gif");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 32px;
+}
+.pagecontentcontainer .pagegloballinksbox ul
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    display: inline;
+    height: 20px;
+    padding-left: 0px;
+}
+
+.pagecontentcontainer .pagegloballinksbox ul li
+{
+    list-style-type: none;
+    display: block;
+    padding-left: 15px;
+    height: 20px;
+    padding-top: 3px;
+    padding-bottom: 0;
+    float: left;
+    vertical-align: top;
+    line-height: 24px;
+    color: #222122;
+    font-size: 12px;
+}
+.pagecontentcontainer .pagegloballinksbox ul li a, .pagecontentcontainer .pagegloballinksbox ul li a:hover, .pagecontentcontainer .pagegloballinksbox ul li a:link, .pagecontentcontainer .pagegloballinksbox ul li a:visited
+{
+    color: #222122;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 24px;
+}
+.pagecontentcontainer .pagegloballinksbox ul li a:hover, .pagecontentcontainer .pagegloballinksbox ul li a:active
+{
+    text-decoration: underline;
+}
+
+.pagecontentcontainer .pagegloballinksbox ul li.homelink
+{
+    padding-right: 0;
+}
+
+table.pageheaderlayouttable
+{
+    width: 100%;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+table.pageheaderlayouttable td
+{
+    margin: 0;
+}
+table.pageheaderlayouttable td.pagelogocell
+{
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+table.pageheaderlayouttable td.pagelangcell
+{
+    vertical-align: top;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+table.pageheaderlayouttable td.pagetopmenucell
+{
+    vertical-align: top;
+    height: 32px;
+}
+.pagecontentcontainer .pageheaderbox select
+{
+    outline: 0;
+    overflow: hidden;
+    background: #FBF6F1;
+    color: #222122;
+    border: 1px solid #DBDBDB;
+}
+
+
+.pagecontentcontainer .pageheaderbox .pageheadertopbox
+{
+    height: 81px;
+    padding: 0 0 0 0;
+}
+.pagecontentcontainer .pageheaderbox .pageheadertopbox .pagelogobox
+{
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+/*pageheader end*/
+
+/*pagefooter*/
+.pagefootercontainer .pagefooterbox
+{
+    /*width: 982px;*/
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+    height: 50px;
+    background-image: url("../Images/Background/2_0/footer.gif");
+    background-repeat: no-repeat;
+}
+.pagefootercontainer .footer
+{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+.pagefootercontainer .footer a
+{
+    color: #FFFFFF;
+    font-size: 11px;
+}
+.pagefootercontainer .links
+{
+    padding-top: 5px;
+}
+.pagefootercontainer .copyright
+{
+    padding-top: 5px;
+}
+.pagefootercontainer p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*pagefooter*/
+
+
+/*===================================*/
+/*        MASTERPAGE STYLES END      */
+/*===================================*/
+/*===================================*/
+/*        MASTERPAGE OVERRIDES       */
+/*===================================*/
+/*plainpage*/
+.plainpage
+{
+    background-color: transparent;
+}
+.plainpage .pagecontentcontainer .pageheaderbox .pageheader
+{
+    width: 550px;
+}
+.plainpage .pagecontentcontainer .pagecontentbox
+{
+    width: 550px;
+}
+.plainpage .pagecontentcontainer .pagecontent
+{
+    min-height: 0;
+    background-color: #F8F8FF;
+}
+/*plainpage end*/
+.bannerzonepage .pagecontentcontainer .pageheader
+{
+    width: 285px;
+}
+.bannerzonepage .pagecontentcontainer .pagecontentbox
+{
+    width: 285px;
+}
+/*incident*/
+.pagecontentcontainer .pageheaderbox .pageheaderincident
+{
+    background-image: url(../Images/Background/bgrad_incident_90.gif);
+    background-repeat: repeat-x;
+    cursor: default;
+    width: 982px;
+    margin: 0 auto 0 auto; /*background-color: #e13130;*/ /*border-bottom: 1px solid #A50021;*/
+}
+.pagecontentcontainer .pageheaderbox .pageheaderincident .pageheadertopbox .pagegloballinksbox
+{
+    float: right;
+    background-image: none;
+    background-repeat: no-repeat;
+    padding-right: 2px;
+    padding-left: 23px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 32px;
+}
+.pagecontentcontainer .pageheaderbox .pageheaderincident .pagemenubox
+{
+    height: 0px;
+}
+/*incident end*/
+/*===================================*/
+/*        MASTERPAGE OVERRIDES end   */
+/*===================================*/
+
+/*===================================*/
+/*        TITLE STYLES          */
+/*===================================*/
+
+.pagetitlebox
+{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+}
+.pagetitlebox h1
+{
+    color: #E23130;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.pagetitlebox h2
+{
+    font-weight: normal;
+    color: #888884;
+    font-size: 12px;
+    padding: 4px 0px 0px 0px;
+    margin: 0px;
+}
+.pagetitlebox h3
+{
+    font-weight: bold;
+    font-size: 1.17em;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*===================================*/
+/*        TITLE STYLES end	         */
+/*===================================*/
+/*===================================*/
+/*       MAIN CONTENT STYLES         */
+/*===================================*/
+
+
+.pagecontentcontainer .contentbox
+{
+    background-color: #FFFFFF;
+    padding: 5px 0px 5px 0px;
+}
+.plainpage .mainbodycontentbox
+{
+    padding: 0 5px 0 5px;
+}
+.pagecontentcontainer .maincontentbox, .pagecontentcontainer table td.maincontentbox
+{
+    padding: 0;
+    vertical-align: top;
+}
+.pagecontentcontainer .infocontentbox, .pagecontentcontainer table td.infocontentbox
+{
+    width: 300px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+.pagecontentcontainer .infocontentsmalbox, .pagecontentcontainer table td.infocontentsmalbox
+{
+    width: 270px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+.pageredirectinfobox
+{
+    text-align: center;
+}
+
+/*===================================*/
+/*       MAIN CONTENT STYLES end     */
+/*===================================*/
+
+/*===================================*/
+/*     pagelayouttable */
+/*===================================*/
+
+table.pagelayouttable
+{
+    width: 100%;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show; /*overflow: hidden;*/
+}
+table.pagelayouttable td.pagelayoutcell
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0;
+}
+table.pagelayouttable td
+{
+    /*vertical-align:top;*/
+}
+
+table.pagelayouttable td.seperatorcell
+{
+    width: 40px;
+}
+table.pagelayouttable td.layoutcell, table.pagelayouttable td.layoutcellleft, table.pagelayouttable td.layoutcellright, table.pagelayouttable td.layoutcellcenter
+{
+    vertical-align: top;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0;
+}
+table.pagelayouttable td.layoutcellleft
+{
+    text-align: left;
+    padding-right: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px; /*padding-left: 10px;*/
+}
+table.pagelayouttable td.layoutcellleft_mynorwegian
+{
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.startpage table.pagelayouttable td.layoutcellleft
+{
+    padding-left: 0;
+}
+
+table.pagelayouttable td.layoutcellright
+{
+    text-align: left; /*padding-left: 10px;*/
+    vertical-align: top;
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
+    overflow: hidden; /*padding-right: 10px;*/
+}
+
+.startpage table.pagelayouttable td.layoutcellright
+{
+    padding-right: 0;
+}
+
+table.pagelayouttable td.layoutcellcenter
+{
+    text-align: left;
+    vertical-align: top;
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px; /*overflow: hidden;*/
+    padding-right: 10px;
+}
+
+table.pagelayouttable td.layoutcellcenterwide
+{
+    text-align: left;
+    vertical-align: top;
+    width: 740px;
+    max-width: 740px;
+    overflow: hidden;
+}
+
+table.pagelayouttable td.layoutcellwide
+{
+    width: 100%; /*padding-left: 20px; 	 	padding-right: 20px;*/
+}
+
+table.pagelayouttable td.left
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+table.pagelayouttable td.right
+{
+    text-align: right;
+    vertical-align: top;
+}
+
+table.pagelayouttable .leftcontent
+{
+    /*padding-left: 10px;*/
+}
+table.pagelayouttable .rightcontent
+{
+    padding-right: 10px;
+}
+
+.startpage table.pagelayouttable .leftcontent, .startpage table.pagelayouttable .rightcontent
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*===================================*/
+/*     pagelayouttable end               */
+/*===================================*/
+
+/*===================================*/
+/*     LayoutTable					 */
+/*===================================*/
+table.layouttable
+{
+    width: 100%;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+    overflow: hidden;
+}
+table.layouttable td.seperatorcell
+{
+    width: 40px;
+}
+table.layouttable td.layoutcell, table.layouttable td.layoutcellleft, table.layouttable td.layoutcellright, table.layouttable td.layoutcellcenter
+{
+    vertical-align: top;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0;
+}
+table.layouttable td.left
+{
+    text-align: left;
+    vertical-align: top;
+}
+table.layouttable td.right
+{
+    text-align: right;
+    vertical-align: top;
+}
+
+/*===================================*/
+/*     LayoutTable end               */
+/*===================================*/
+
+table.viewtable
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+}
+table.viewtable td.viewcell, table.viewtable th.viewcell
+{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    vertical-align: top;
+}
+table.viewtable colgroup col.leftcolumn
+{
+    text-align: left;
+}
+table.viewtable colgroup col.rightcolumn
+{
+    text-align: right;
+}
+table.viewtable th.viewcell
+{
+    font-weight: bold;
+}
+
+
+/*===================================*/
+/*  PAGEBODYBOXBANNER OVERRIDES  */
+/*===================================*/
+
+.pagebodyboxbanner .contentbox
+{
+    border-top: 0;
+}
+
+.pagebodyboxbanner .pagetitlebox
+{
+    padding-bottom: 5px;
+}
+
+/*===================================*/
+/*  PAGEBODYBOXBANNER OVERRIDES  end */
+/*===================================*/
+
+/*===================================*/
+/* PAGE MAIN MENU STYLES			 */
+/*===================================*/
+.pagecontentcontainer .pagemenubox
+{
+    height: 28px;
+    height: 27px\9;
+}
+.plainpage .pagecontentcontainer .pageheaderbox .pagemenubox
+{
+    height: 0;
+}
+.pagecontentcontainer .pagemenubox ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.pagecontentcontainer .pagemenubox ul li
+{
+    float: left;
+    padding: 1px 1px 1px 1px;
+}
+.pagecontentcontainer .pagemenubox ul li.lastitem a
+{
+}
+.pagecontentcontainer .pagemenubox li.floatright
+{
+    float: right;
+}
+.pagecontentcontainer .pagemenubox ul li a
+{
+    display: inline-block;
+    font-size: 12.5px;
+    padding: 4px 9px 5px 9px;
+}
+.pagecontentcontainer .pagemenubox li.selected .currentpage
+{
+    display: block;
+    padding: 5px 10px 6px 10px;
+    font-size: 12.5px;
+    text-decoration: none;
+    cursor: text;
+}
+.pagecontentcontainer .pagemenubox .wide li
+{
+    padding-top: 0;
+}
+.pagecontentcontainer .pagemenubox .wide li.selected
+{
+    width: 960px;
+}
+
+.pagecontentcontainer .pagemenubox .wide li.selected .currentpage
+{
+    background-color: transparent;
+    border-top: solid 1px #F87869;
+    border-right: solid 1px #F87869;
+    border-left: solid 1px #F87869; /*padding-top: 3px;*/
+}
+
+.pagecontentcontainer .pagemenubox .wide li a
+{
+}
+
+* html .pagemenubox ul li a, * html .pagemenubox li.selected .currentpage
+{
+    display: inline-block;
+}
+/* for IE 6 */
+
+
+.pagecontentcontainer .pagemenubox li.selected a, .pagecontentcontainer .pagemenubox li.selected a:hover, .pagecontentcontainer .pagemenubox a:hover, .pagecontentcontainer .pagemenubox li a:hover
+{
+    text-decoration: underline;
+}
+
+.pagecontentcontainer .pagemenubox li.selected a
+{
+}
+/*===================================*/
+/* PAGE MAIN MENU STYLES END	     */
+/*===================================*/
+/*===================================*/
+/* PAGE SECONDARY MENU STYLES    	 */
+/*===================================*/
+.secondarymenubox
+{
+    height: 20px;
+    padding-top: 8px; /*10px;*/
+    border-bottom: solid 1px #A7AEC1;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.secondarymenubox ul
+{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+}
+
+.secondarymenubox ul li
+{
+    list-style-type: none;
+    display: inline;
+    float: left; /*padding-left: 10px;*/
+    padding-right: 10px;
+}
+
+.secondarymenubox ul li a
+{
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    color: #002C58;
+}
+
+.secondarymenubox ul li a:hover
+{
+    border-bottom: solid 3px #A7AEC1;
+}
+
+.secondarymenubox a, .secondarymenubox a:hover
+{
+    text-decoration: none;
+}
+
+.secondarymenubox .selected a, .secondarymenubox ul li.selected a:hover
+{
+    border-bottom: solid 3px #576871;
+}
+
+/*===================================*/
+/* PAGE SECONDARY MENU STYLES END	 */
+/*===================================*/
+
+/*===================================*/
+/* PAGE LEFT MENU STYLES 			 */
+/*===================================*/
+.leftmenubox
+{
+    color: #002C58; /*text-indent: 10px;*/
+}
+
+.leftmenubox h2
+{
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.leftmenubox h2 a
+{
+    color: #AAAAA0;
+    padding-left: 0;
+}
+.leftmenubox a
+{
+    color: #002C58;
+}
+
+.leftmenubox ul
+{
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+}
+
+.leftmenubox ul ul
+{
+    padding-left: 5px;
+}
+
+.selectedexpanded .selectedexpandeditem
+{
+    padding: 0 5px 0 5px;
+}
+
+.leftmenubox li, .leftmenubox .currentpage
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px; /*padding-left: 10px; 	padding-right: 10px;*/
+}
+
+.leftmenubox li li
+{
+    padding-left: 5px;
+}
+
+.leftmenubox li.expanded
+{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.leftmenubox div.expanded, .leftmenubox div.selectedexpanded
+{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.leftmenubox div.selectedexpanded ul li ul
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.leftmenubox div.expanded a
+{
+    font-weight: bold; /*color: #E23130;*/
+}
+
+.leftmenubox li ul li.expanded a, .leftmenubox li ul li.expanded
+{
+    color: #002C58;
+}
+
+.leftmenubox li.expanded div.expanded, .leftmenubox li.expanded div.selectedexpanded
+{
+    /*background-color: #E23130; 	color: #FFFFFF;*/
+}
+
+.leftmenubox li.expanded div.expanded .expandeditem, .leftmenubox li.expanded div.selectedexpanded span.selectedexpandeditem
+{
+    /*display: block; 	width: 20px;*/
+    border-bottom: 3px solid #576871 /*color: #FFFFFF;*/;
+}
+.leftmenubox a:hover
+{
+    border-bottom: 3px solid #A7AEC1;
+}
+
+.leftmenubox li.expanded ul div.expanded, .leftmenubox li.expanded ul div.selectedexpanded
+{
+    /*background-color: #FFFFFF; 	color: #E23130;*/ /*font-weight: bold;*/
+}
+
+.leftmenubox li.expanded ul li div.expanded a
+{
+    /*color: #E23130;*/
+}
+
+.leftmenubox li.expanded ul li ul div.expanded, .leftmenubox li.expanded ul li ul div.selectedexpanded
+{
+    /*	color: #E23130;*/
+}
+
+.leftmenubox li ul li.expanded ul li a, .leftmenubox li ul li.expanded ul li
+{
+    /*	color: #E23130;*/
+}
+
+.leftmenubox a
+{
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+.leftmenubox a:hover
+{
+    text-decoration: none;
+}
+
+div.leftmenubox
+{
+    padding-bottom: 10px;
+}
+/*===================================*/
+/* PAGE LEFT MENU STYLES END		 */
+/*===================================*/
+
+/*===================================*/
+/* PAGE INFO (SELECTION) STYLES      */
+/*===================================*/
+
+table.selectiontable
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.selectioncontainer .selectionbox
+{
+    background-color: #f8f8ff;
+    border: solid 1px #CACAAE;
+    padding: 5px;
+}
+.selectioncontainer .selectionlogo
+{
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.selectioncontainer .legend
+{
+    color: #858569;
+}
+.selectioncontainer .title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 5px;
+}
+.selectioncontainer div.info
+{
+    text-align: left;
+    padding-left: 5px;
+}
+.selectioncontainer td
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.selectioncontainer td.details
+{
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.selectioncontainer td.leftcell
+{
+    text-align: left;
+    vertical-align: top;
+}
+.selectioncontainer td.rightcell
+{
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.selectioncontainer td.headercell
+{
+    text-align: left;
+    border-bottom: 1px solid #858569;
+    color: #858569;
+    font-weight: bold;
+}
+
+.selectioncontainer td.totalfarecell
+{
+    background-color: #EDECEF;
+    border-bottom: #858569 3px double;
+    border-top: #858569 1px solid;
+    font-weight: bold;
+}
+
+.selectioncontainer td.totalfarewithsurchargecell
+{
+    background-color: #e0e0e0;
+    border-bottom: #858569 3px double;
+    border-top: #858569 1px solid;
+    font-weight: bold;
+}
+
+.selectioncontainer td.selectionsummary
+{
+    background-color: #EDECEF;
+    font-weight: bold;
+}
+.selectioncontainer span.selectionsummaryinfo
+{
+    font-weight: normal;
+}
+.selectioncontainer td.selectionsummarytop
+{
+    border-top: #858569 1px solid;
+}
+.selectioncontainer td.selectionsummarybottom
+{
+    border-bottom: #858569 3px double;
+}
+
+.selectioncontainer td.rowseparator
+{
+    margin-top: 5px;
+}
+.selectioncontainer td.contentcell
+{
+    padding: 0px;
+}
+.selectioncontainer .emphasize
+{
+    font-weight: bold;
+}
+.selectioncontainer .togglebox
+{
+    padding: 0px 0px 0px 10px;
+}
+.selectioncontainer .productheader
+{
+    font-weight: bold;
+    padding-top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.selectioncontainer .taxdetails
+{
+}
+.selectioncontainer img.img
+{
+    vertical-align: bottom;
+    margin: 0px 8px 0px 0px;
+}
+.selectioncontainer .headerbox
+{
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.selectioncontainer .bodybox
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*===================================*/
+/* PAGE INFO (SELECTION) STYLES  end */
+/*===================================*/
+
+/*===================================*/
+/*		MISC DEFAULT STYLES			 */
+/*===================================*/
+table.bodytable
+{
+    border-collapse: collapse;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+    width: 100%;
+}
+table.bodytable td.bodycell
+{
+    vertical-align: top;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+table.bodytable th
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+table.bodytable .columntitle
+{
+    font-weight: bold;
+}
+
+table td.cellseperator
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.para
+{
+    margin: 0.5em 0px 0.5em 0px;
+    display: block;
+}
+
+.parastart
+{
+    margin: 0px 0px 5px 0px;
+    display: block;
+}
+
+label.label
+{
+    cursor: pointer;
+}
+
+input.checkbox
+{
+    cursor: pointer;
+    margin: 0;
+}
+span.checkbox input
+{
+    cursor: pointer;
+    margin: 0;
+}
+span.checkboxaligned input, span.radioboxaligned input
+{
+    left: 0;
+    position: relative;
+    top: 4px;
+    margin: 0;
+    width: 15px;
+    cursor: pointer;
+}
+span.radioboxaligned input
+{
+    top: 3px;
+}
+span.checkboxaligned label, span.radioboxaligned label
+{
+    margin: 0px;
+    left: 3px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.emphasize
+{
+    font-weight: bold;
+}
+.deemphasize
+{
+    font-weight: normal;
+}
+.linklistbox
+{
+}
+.linklistitem
+{
+    padding-top: 3px;
+}
+.textbox
+{
+    width: 200px;
+}
+.select
+{
+    width: 200px;
+}
+
+select option.countryItem
+{
+    background: inherit;
+    color: 3D3C2F;
+    font-style: italic;
+}
+
+input.radio, span.radio input
+{
+    cursor: pointer;
+}
+.separator
+{
+    margin: 10px 0px 10px 0px;
+    border-bottom: solid 1px #000000;
+}
+img.icon
+{
+    float: left;
+    padding-right: 6px;
+}
+ul.unorderedlist
+{
+    padding-left: 15px;
+    margin: 5px 0px 0px 0px;
+}
+td.rightbottom
+{
+    text-align: right;
+    vertical-align: bottom;
+}
+div.lastupdated
+{
+    font-style: italic;
+}
+.flightstart .pagecontent
+{
+    min-height: 400px;
+}
+.flightstart .pagebodybox
+{
+    padding: 15px 0px 0px 10px;
+    margin-bottom: 10px;
+}
+span.mandatory
+{
+    color: #e23130;
+}
+/*===================================*/
+/*		MISC DEFAULT STYLES END		 */
+/*===================================*/
+
+/*===================================*/
+/*		FORM 						 */
+/*===================================*/
+
+.formlistitem
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.forminputtable td
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+}
+
+label.failed, .formlistitem span.failed
+{
+    background-image: url(../Images/warning.gif);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    color: #e23130;
+    font-weight: bold;
+}
+.failed label {
+    background-color: yellow;
+}
+input.failed, textarea.failed
+{
+    background-color: yellow;
+    border: 1px solid #AFAFAF;
+    padding: 2px;
+}
+
+select.failed
+{
+    background-color: yellow;
+    border: 1px solid #AFAFAF;
+}
+
+input.readonly, textarea.readonly
+{
+    color: #B1A0C1;
+    background-color: #FFFFFF;
+    border: solid 1px #AFAFAF;
+    padding: 2px;
+}
+select.readonly
+{
+    color: #B1A0C1;
+    background-color: #FFFFFF;
+    border: solid 1px #AFAFAF;
+}
+
+.formlabel
+{
+    font-weight: bold;
+}
+
+.formlistrowalternative
+{
+    background-color: #E5E6E1;
+}
+
+/*===================================*/
+/*		FORM end					 */
+/*===================================*/
+
+
+/*===================================*/
+/*     SECTIONBOX DEFAULT STYLES     */
+/*===================================*/
+
+.sectionseparator
+{
+    margin-top: 15px;
+}
+.sectioncontainer
+{
+}
+.sectioncontainer .para
+{
+    margin: 0.5em 0px 0.5em 0px;
+}
+.sectioncontainer h3, .sectioncontainer h4, .sectioncontainer h5, .sectioncontainer h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.sectioncontainer .sectionboxinfo
+{
+    border: solid 1px #A5A579;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.sectioncontainer .footermessage
+{
+    padding: 10px 0px 0px 0px;
+}
+.sectioncontainer .headermessage
+{
+    padding: 0px 0px 10px 0px;
+}
+.sectioncontainer .headerbox
+{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #CACAAE;
+    border: solid 1px #858569;
+    font-size: 13px;
+}
+.sectioncontainer .headerbox td
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.sectioncontainer .headerbox .emphasize
+{
+    text-transform: uppercase;
+}
+.sectioncontainer .subheaderbox
+{
+    background-color: #DFDECE;
+    padding: 5px;
+    border-left: solid 1px #858569;
+    border-right: solid 1px #858569;
+    border-bottom: solid 1px #858569; /*color: #5F5F5F;*/
+}
+.sectioncontainer .header
+{
+    text-align: left;
+}
+.sectioncontainer .headerright
+{
+    text-align: right;
+}
+.sectioncontainer .bodybox
+{
+    border-right: solid 1px #CACAAE;
+    border-left: solid 1px #CACAAE;
+    border-bottom: solid 1px #CACAAE;
+    background-color: #efeee6;
+    padding: 5px 10px 5px 10px;
+}
+.sectioncontainer .body
+{
+}
+.sectioncontainer .body .bodyheader
+{
+    border-bottom: 1px solid #CACAAE;
+    line-height: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.sectioncontainer .body .infobox
+{
+    padding: 5px 0px 0px 5px;
+    text-align: left;
+}
+.sectioncontainer .tableseperator
+{
+    margin-top: 5px;
+}
+.sectioncontainer .body .infobox .info
+{
+}
+.sectioncontainer .body .textarea
+{
+    height: 100px;
+    resize: none;
+    width: 470px;
+}
+.sectioncontainer .body .errorbox
+{
+}
+.sectioncontainer .body .buttonbox
+{
+    padding: 5px 0px 0px 0px;
+    text-align: right;
+}
+.sectioncontainer .footerbox
+{
+    padding: 2px 0px 0px 0px;
+}
+.sectioncontainer .footer
+{
+    text-align: center;
+}
+.sectioncontainer .bodytitle
+{
+    font-weight: bold;
+}
+.sectioncontainer .separator
+{
+    margin: 5px 0px 5px 0px;
+    border-bottom: solid 1px #cacaae;
+}
+.sectioncontainer .buttonbarbox
+{
+    border-top: 1px solid #CACAAE;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.sectioncontainer .buttonbarbox .buttonbar
+{
+    float: right;
+}
+.sectioncontainer .sectionbuttonbarbox
+{
+    padding-top: 10px;
+    text-align: right;
+}
+.sectioncontainer .colsection
+{
+    float: left;
+    padding-right: 10px;
+    width: 300px;
+}
+.sectioncontainer .colsection .bodybox
+{
+    min-height: 180px;
+}
+.sectioncontainer td.checkbox
+{
+    width: 30px;
+}
+.sectioncontainer .imageicon
+{
+    padding-right: 10px;
+}
+.sectioncontainer .checkbox label
+{
+    padding-left: 10px;
+}
+.sectioncontainer .select
+{
+    width: 125px;
+}
+.sectioncontainer input.textboxsmall
+{
+    width: 40px;
+}
+
+
+/*
+.sectioncontainer .footerbox a, .sectioncontainer .footerbox a:visited, .sectioncontainer .footerbox a:link, .sectioncontainer .footerbox a:active
+{
+    color: #5C5B47;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.sectioncontainer .footerbox a:hover
+{
+    color: #828065;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: normal;
+}*/
+/*===================================*/
+/*  SECTIONBOX DEFAULT STYLES  end   */
+/*===================================*/
+/* sectionbox overrides start */
+
+/*==================================*/
+/*  SECTIONBOX NON_AIR OVERRIDES 	*/
+/*==================================*/
+
+.sectionboxnonair .headerbox
+{
+    background-color: #EDECEF;
+    border: solid 1px #A0A07E;
+    font-size: 13px;
+    color: #3D3C2F;
+}
+
+.sectionboxnonair .subheaderbox
+{
+    background-color: #F8F8F8;
+    padding: 10px 10px 0px 10px;
+    border-left: solid 1px #CACAAE;
+    border-right: solid 1px #CACAAE;
+    border-bottom: 0;
+}
+
+.sectionboxnonair .subheaderbox img.imgage
+{
+    margin: 0;
+}
+.sectionboxnonair .subheaderbox td.textcell
+{
+    vertical-align: top;
+    text-align: left;
+}
+.sectionboxnonair .subheaderbox td.imagecell
+{
+    padding: 0px 20px 0px 20px;
+}
+
+.sectionboxnonair .headerbox td
+{
+    font-size: 13px;
+    color: #3D3C2F;
+}
+.sectionboxnonair .subtitle
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.sectionboxnonair .bodybox
+{
+    padding: 5px 10px 5px 10px;
+    background-color: #F8F8F8;
+    border-right: solid 1px #CACAAE;
+    border-left: solid 1px #CACAAE;
+    border-bottom: solid 1px #CACAAE;
+}
+.sectionboxnonair .bodybox td.imagecell
+{
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.sectionboxnonair .bodybox td.iconcell
+{
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.sectionboxnonair .imagetextmiddle
+{
+    text-align: left;
+    vertical-align: middle;
+}
+.sectionboxnonair .imagetexttop
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+.sectionboxnonair .spaceseperator
+{
+    margin-top: 5px;
+}
+
+.sectionboxnonair .separator
+{
+    border-bottom: 1px solid #858569;
+    margin: 5px 0;
+}
+
+.sectionboxnonair .body .bodyheader
+{
+    border-bottom: 0;
+    line-height: 18px;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.sectionboxnonair .para, .sectionboxnonair p
+{
+    margin: 0.8em 0px 0.8em 0px;
+}
+
+.sectionboxnonair .select
+{
+    width: 160px;
+}
+
+.sectionboxnonair .labeldisabledtext
+{
+    color: #A8A8A8;
+}
+
+
+/*===================================*/
+/*  SECTIONBOX NON_AIR OVERRIDES end   */
+/*===================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX LOGIN OVERRIDES 	*/
+/*==================================*/
+.sectionboxlogin .body .buttonbox, .sectionboxreslookup .body .buttonbox
+{
+    text-align: left;
+}
+.sectionboxloginmain .bodybox
+{
+    height: 175px;
+}
+.sectionboxloginmain .body .buttonbox
+{
+    text-align: left;
+}
+
+/** sectionboxunregistered **/
+
+.sectionboxunregistered .bodybox
+{
+    height: 175px;
+    position: relative;
+}
+
+.sectionboxunregistered .body .buttonbox
+{
+    text-align: left;
+    position: absolute;
+    bottom: 52px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sectionboxunregistered .body .infobox
+{
+    padding: 14px 0px 5px 0px;
+    text-align: left;
+}
+
+/** sectionboxresmakelogin **/
+
+.sectionboxresmakelogin .body .infobox
+{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #e23130;
+    padding: 4px;
+    margin: 4px 0px 4px 0px;
+}
+.sectionboxresmakelogin .body .infobox .info
+{
+}
+
+
+/*==================================*/
+/*  SECTIONBOX LOGIN OVERRIDES end 	*/
+/*==================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX REWARD OVERRIDES 	*/
+/*==================================*/
+.sectionboxreward
+{
+}
+.sectionboxreward .headerbox
+{
+    padding: 5px 5px 0px 10px;
+    font-weight: bold;
+    background-color: #ECECFF;
+    border: solid 1px #BECAFE;
+    border-top: solid 1px #BECAFE;
+    border-right: solid 1px #BECAFE;
+    border-left: solid 1px #BECAFE;
+    border-bottom: 0;
+    font-size: 20px;
+    color: #888884;
+}
+
+.sectionboxreward .subheaderbox
+{
+    border-right: solid 1px #BECAFE;
+    border-left: solid 1px #BECAFE;
+    border-bottom: 0;
+    background-color: #ECECFF;
+    padding: 5px 5px 0px 10px;
+    font-weight: bold;
+}
+
+.sectionboxreward .bodybox
+{
+    border-right: solid 1px #BECAFE;
+    border-left: solid 1px #BECAFE;
+    border-bottom: solid 1px #BECAFE;
+    background-color: #ECECFF;
+    padding: 5px 10px 5px 10px;
+}
+
+.sectionboxreward .body
+{
+    background-color: inherit;
+}
+
+
+.sectionboxreward .body .errorbox
+{
+    margin-bottom: 4px;
+    background-color: #FFFFFF;
+    border-style: dashed;
+    border-width: thin;
+    text-align: center;
+    color: #FF3300;
+}
+
+.sectionboxreward .body .confirmbox
+{
+    background-color: #ECECFF;
+    border: 0;
+    padding: 5px 0px 0px 0px;
+}
+.sectionboxreward .body .buttonbox
+{
+    padding: 5px 0px 0px 0px;
+    text-align: right;
+}
+.sectionboxreward .separator
+{
+    margin: 5px 0px 10px 0px;
+    border-bottom: solid 1px #cacaae;
+}
+
+
+/*sectionboxmynorwegian */
+.sectionboxmynorwegian
+{
+    border: 1px solid #CACAAE;
+}
+.sectionboxmynorwegian .headerbox
+{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #F8F8F8;
+    border: 0;
+    font-size: 20px;
+    color: #888884;
+}
+.sectionboxmynorwegian .subheaderbox
+{
+    background-color: #F8F8F8;
+    padding: 5px;
+    border: 0;
+    font-size: 14px;
+    color: #888884;
+}
+.sectionboxmynorwegian .bodybox
+{
+    border: 0;
+    background-color: #F8F8F8;
+    padding: 0px 10px 5px 10px;
+}
+
+.sectionboxmynorwegian .body .buttonbox
+{
+    padding: 0px 0px 0px 0px;
+}
+/*sectionboxmynorwegian end*/
+
+/*==================================*/
+/*  SECTIONBOX REWARD OVERRIDES end	*/
+/*==================================*/
+/*==================================*/
+/*  SECTIONBOX RETRY OVERRIDES  	*/
+/*==================================*/
+.sectionboxretry .body .buttonbox
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sectionboxretry .body .infobox
+{
+    padding: 10px;
+    text-align: center;
+}
+
+/*==================================*/
+/*  SECTIONBOX RETRY OVERRIDES end	*/
+/*==================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX AVACODES OVERRIDES	*/
+/*==================================*/
+.sectionboxavacodes .bodybox
+{
+    border: 0px;
+    border-top: solid 1px #CACAAE;
+    margin-top: 15px;
+    padding: 10px 0px 0px 0px;
+    background-color: Transparent;
+}
+
+.sectionboxavacodes .formlabel
+{
+    padding-right: 5px;
+    font-weight: normal;
+}
+
+.sectionboxavacodes .forminput
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sectionboxavacodes select.select
+{
+    width: 140px;
+}
+
+.sectionboxavacodes input.textbox
+{
+    width: 140px;
+}
+
+/*sectionboxagreementcode */
+.sectionboxpaxagreementcode .bodybox
+{
+    border: 0px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: Transparent;
+}
+
+.sectionboxpaxagreementcode .formlabel
+{
+    padding-right: 5px;
+    font-weight: normal;
+}
+.sectionboxpaxagreementcode select.select
+{
+    width: 140px;
+}
+
+.sectionboxpaxagreementcode input.textbox
+{
+    width: 140px;
+}
+
+/*==================================*/
+/*  SECTIONBOX AVACODES end			*/
+/*==================================*/
+/*==================================*/
+/*  SECTIONBOX CONTACTINFO			*/
+/*==================================*/
+.sectionboxgrouptravel select.select
+{
+    margin-right: 5px;
+}
+.sectionboxcontactinfo select.select {
+    margin-right: 5px;
+    width: 200px;
+}
+/*==================================*/
+/*  SECTIONBOX CONTACTINFO end		*/
+/*==================================*/
+
+/*==================================*/
+/*  SECTIONBOX WIRELESS OVERRIDES	*/
+/*==================================*/
+
+.sectionboxWireless .bodybox
+{
+    background-color: #FEEAC1;
+}
+.sectionboxWireless .headerbox
+{
+    background-color: #FFDB94;
+    border: #858569 1px solid;
+}
+.sectionboxWireless .separator
+{
+    border-bottom-color: #D3BA87;
+}
+
+/*======================================*/
+/*  SECTIONBOX WIRELESS OVERRIDES end 	*/
+/*======================================*/
+
+/*==========================================*/
+/*  SECTIONBOX SPECIAL BAGGAGE OVERRIDES	*/
+/*==========================================*/
+
+.sectionboxSpecialBaggage .bodybox
+{
+    background-color: #EFEEE6;
+}
+.sectionboxSpecialBaggage .headerbox
+{
+    background-color: #CACAAE;
+    border: #858569 1px solid;
+}
+
+/*==========================================*/
+/*  SECTIONBOX SPECIAL BAGGAGE OVERRIDES	*/
+/*==========================================*/
+
+/*==============================================*/
+/*  SECTIONBOX RESERVATION DETAILS OVERRIDES	*/
+/*==============================================*/
+
+.sectionboxresdetails .bodybox
+{
+    background-color: #F5F5F0;
+    line-height: 20px;
+    padding: 0px;
+}
+.sectionboxresdetails .delayedflight, .sectionboxresdetails .cancelledflight
+{
+    color: Red;
+}
+
+.sectionboxresdetails .ontimeflight
+{
+    color: Green;
+}
+
+.sectionboxresdetails .bodytitle
+{
+    font-weight: bold;
+}
+
+/*==================================================*/
+/*  SECTIONBOX RESERVATIONDETAILS OVERRIDES end 	*/
+/*==================================================*/
+
+/*==================================*/
+/*  SECTIONBOX INSURANCE OVERRIDES	*/
+/*==================================*/
+
+.sectionboxInsurance .bodybox
+{
+    background-color: #D9E5F7;
+}
+.sectionboxInsurance .headerbox
+{
+    background-color: #BAD0F1;
+    border: #858569 1px solid;
+}
+.sectionboxInsurance .separator
+{
+    border-bottom-color: #BAD0F1;
+}
+
+/*======================================*/
+/*  SECTIONBOX INSURANCE OVERRIDES end 	*/
+/*======================================*/
+
+/*======================================*/
+/*  SECTIONBOX STEP INFO OVERRIDES  	*/
+/*======================================*/
+
+.sectionboxStepInfo
+{
+    border: solid 1px #B4B49B;
+    background-color: #FFFFFF;
+}
+.sectionboxStepInfo .headerbox
+{
+    background-color: #FFFFFF;
+    color: #5C5B47;
+    font-size: 22px;
+    border: 0;
+    padding: 10px;
+}
+.sectionboxStepInfo .bodybox
+{
+    border: 0;
+    background-color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sectionboxStepInfo .footerbox
+{
+    background-color: #FFFFFF;
+}
+
+.sectionboxStepInfo .footer
+{
+    background-color: #FFFFFF;
+    text-align: left;
+    padding-left: 10px;
+    color: #5C5B47;
+}
+
+table.StepInfoTable td
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+table.StepInfoTable td.step
+{
+    color: #5C5B47;
+    font-size: 22px;
+    width: 30px;
+    font-style: italic;
+}
+
+table.StepInfoTable td.info
+{
+    color: #5C5B47;
+    vertical-align: middle;
+}
+
+/*======================================*/
+/*  SECTIONBOX STEP INFO OVERRIDES end 	*/
+/*======================================*/
+
+/*==================================*/
+/*  SECTIONBOX PAX OVERRIDES start 	*/
+/*==================================*/
+
+.sectionboxPax .paxheader
+{
+    border-bottom: 1px solid #CACAAE;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.sectionboxPax .paxlabel
+{
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.sectionboxPax .formlabel
+{
+    font-weight: normal;
+}
+
+.sectionboxPax .separator
+{
+    border-bottom: 1px solid #CACAAE;
+}
+
+.sectionboxPax .textbox
+{
+    width: 130px;
+}
+
+.sectionboxPax .disabled
+{
+    background-color: #EBEBE4;
+    border: 1px solid #AFAFAF;
+    padding: 2px;
+}
+
+.sectionboxPax .select
+{
+    width: 135px;
+}
+
+.sectionboxPax .selectgender
+{
+    width: 85px;
+}
+
+.sectionboxPax .bodytitle
+{
+    font-weight: bold;
+    border-bottom: 1px solid #CACAAE;
+}
+.sectionboxPax .bodytitle img.img
+{
+    vertical-align: middle;
+    margin: 0px 8px 0px 0px;
+}
+.sectionboxPax img.imghelp
+{
+    cursor: help;
+    margin: 0px;
+}
+/*==================================*/
+/*  SECTIONBOX PAX OVERRIDES end 	*/
+/*==================================*/
+
+/*==========================================*/
+/*  SECTIONBOX CREDITCARD OVERRIDES start 	*/
+/*==========================================*/
+.sectionboxcreditcard .textbox
+{
+    width: 120px;
+}
+.sectionboxcreditcard .select
+{
+    width: 160px;
+}
+/*==========================================*/
+/*  SECTIONBOX CREDITCARD OVERRIDES end 	*/
+/*==========================================*/
+
+
+/*==========================================*/
+/*  SECTIONBOX CREATEPROFILE OVERRIDES start*/
+/*==========================================*/
+.sectionboxcreateprofile .textbox
+{
+    width: 180px;
+}
+.sectionboxcreateprofile .phoneprefixselect
+{
+    width: 90px;
+}
+.sectionboxcreateprofile .phoneinput
+{
+    width: 80px;
+}
+.sectionboxcreateprofile .postalcodeinput
+{
+    width: 60px;
+}
+.sectionboxcreateprofile .postalinput
+{
+    width: 110px;
+}
+.sectionboxcreateprofile .countryinput
+{
+    width: 170px;
+}
+
+/*==========================================*/
+/*  SECTIONBOX CREATEPROFILE OVERRIDES end 	*/
+/*==========================================*/
+
+
+/*==========================================*/
+/*  SECTIONBOX PERONALINFO OVERRIDES start 	*/
+/*==========================================*/
+.sectionboxpersonalinfo .textbox
+{
+    width: 180px;
+}
+.sectionboxpersonalinfo .phoneprefixselect
+{
+    width: 90px;
+}
+.sectionboxpersonalinfo .phoneinput
+{
+    width: 80px;
+}
+.sectionboxpersonalinfo .postalcodeinput
+{
+    width: 60px;
+}
+.sectionboxpersonalinfo .postalinput
+{
+    width: 110px;
+}
+.sectionboxpersonalinfo .countryinput
+{
+    width: 170px;
+}
+/*==========================================*/
+/*  SECTIONBOX PERONALINFO OVERRIDES end 	*/
+/*==========================================*/
+
+/*==========================================*/
+/*  SECTIONBOX FAMILYMEMBER OVERRIDES start	*/
+/*==========================================*/
+.sectionboxfamilymember .textbox
+{
+    width: 120px;
+}
+/*==========================================*/
+/*  SECTIONBOX FAMILYMEMBER OVERRIDES end	*/
+/*==========================================*/
+
+
+/*=============================================*/
+/*  SECTIONBOX DELAY INFO OVERRIDES	   */
+/*=============================================*/
+
+.sectionboxdelayinfo a, .sectionboxdelayinfo a:hover
+{
+    color: #336699;
+}
+.sectionboxdelayinfo .delayedflight
+{
+    color: Red;
+}
+.sectionboxdelayinfo .ontimeflight
+{
+    color: Green;
+}
+.sectionboxdelayinfo .cancelledflight
+{
+    color: Red;
+}
+.sectionboxdelayinfo .offsetdays
+{
+    font-weight: normal;
+    font-size: 11px;
+    cursor: help;
+}
+.sectionboxdelayinfo .subheadertitle {
+    float: right;
+    font-weight: normal;
+}
+.sectionboxdelayinfo .listboxcelllast{ text-align: right;}
+
+/*==============================================*/
+/*  SECTIONBOX DELAY INFO OVERRIDES	end */
+/*==============================================*/
+/*=============================================*/
+/*  SECTIONBOX ADD IDENTIFICATION OVERRIDES	   */
+/*=============================================*/
+
+.sectionboxAddIdentificationSummary .headerbox
+{
+}
+.sectionboxAddIdentificationSummary .bodybox
+{
+    background-color: #FFFFCC;
+}
+.sectionboxAddIdentification .separator
+{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.sectionboxAddIdentification .headerbox
+{
+}
+.sectionboxAddIdentification .bodybox
+{
+}
+.sectionboxAddIdentification .oddrow
+{
+    background-color: #F5F5F0;
+}
+.sectionboxAddIdentification .evenrow
+{
+    background-color: #EFEEE6;
+}
+.sectionboxAddIdentification .textbox
+{
+    width: 180px;
+}
+.sectionboxAddIdentification input.disabled
+{
+    background-color: #EBEBE4;
+    border: 1px solid #AFAFAF;
+    padding: 2px;
+}
+.sectionboxAddIdentification .select
+{
+    width: 180px;
+}
+.sectionboxAddIdentification span.failed
+{
+    background-image: url(../Images/warning.gif);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    color: #e23130;
+    font-weight: bold;
+}
+
+/*==============================================*/
+/*  SECTIONBOX ADD IDENTIFICATION OVERRIDES	end */
+/*==============================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX AVADAY OVERRIDES 	*/
+/*==================================*/
+
+
+.sectionboxavaday .headerbox, .sectionboxavaday .headerbox td
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sectionboxavaday .bodybox
+{
+    background-color: #f8f8f0;
+    padding: 0px;
+    border: 0;
+}
+
+.sectionboxavaday .footerbox
+{
+    padding: 6px 9px 3px 0px;
+    border: 0;
+}
+
+.sectionboxavaday .overnightflight
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.sectionboxavaday .overnightflight .overnightwarning
+{
+    position: absolute;
+    background-image: url(../Images/warning.gif);
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}
+/*==================================*/
+/*  SECTIONBOX AVADAY OVERRIDES end */
+/*==================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX FARE CAL OVERRIDES 	*/
+/*==================================*/
+
+.sectionboxfarecal
+{
+    width: 445px;
+}
+.sectionboxfarecal .headerbox, .sectionboxfarecal .headerbox td
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sectionboxfarecal .bodybox
+{
+    padding: 3px;
+    background-color: #f8f8f0;
+}
+
+.sectionboxfarecal .footerbox
+{
+    padding: 6px 9px 3px 9px;
+    border: 0;
+}
+
+/*====================================*/
+/*  SECTIONBOX FARE CAL OVERRIDES end */
+/*====================================*/
+
+/*====================================*/
+/*  SECTIONBOX SUMMARY OVERRIDES	 */
+/*====================================*/
+
+.sectionboxsummary .headerbox
+{
+    border: solid 1px #CBCBB0;
+    background-color: #F5F5F0;
+}
+.sectionboxsummary .headerbox td
+{
+    background-color: #F5F5F0;
+}
+.sectionboxsummary .subheaderbox
+{
+    border-left: solid 1px #CBCBB0;
+    border-right: solid 1px #CBCBB0;
+    border-bottom: solid 1px #CBCBB0;
+    background-color: #FFFFFF;
+}
+.sectionboxsummary .bodybox
+{
+    border-right: solid 1px #CACAAE;
+    border-left: solid 1px #CACAAE;
+    border-bottom: solid 1px #CACAAE;
+    background-color: #efeee6;
+}
+
+
+
+/*====================================*/
+/*  SECTIONBOX SUMMARY OVERRIDES end */
+
+/*====================================*/
+
+/*====================================*/
+/*  SECTIONBOX HELPINFO OVERRIDES */
+/*====================================*/
+.sectionboxhelpinfo .headerbox
+{
+    border: 0;
+    background-color: #FFFFFF;
+}
+.sectionboxhelpinfo .headerbox td
+{
+    background-color: #FFFFFF;
+}
+.sectionboxhelpinfo .bodybox
+{
+    border: 0;
+    padding: 0px 5px 0px 5px;
+    background-color: #FFFFFF;
+}
+/*====================================*/
+/*  SECTIONBOX HELPINFO OVERRIDES end */
+/*====================================*/
+
+/* sectionbox overrides end */
+/*===================================*/
+/*		Message board				 */
+/*===================================*/
+
+.messagecontainer
+{
+    margin-bottom: 15px;
+    background-color: #F5F5F0;
+}
+
+.messagecontainer .headerbox
+{
+    padding-bottom: 4px;
+    font-size: 13px;
+    color: #3C3B27;
+    background-color: #F5F5F0;
+    overflow: auto;
+}
+
+.messagecontainer .header
+{
+    font-weight: bold;
+    padding-bottom: 4px;
+    font-size: 13px;
+    color: #3C3B27;
+    background-color: #F5F5F0;
+    float: left;
+}
+.messagecontainer .timestamp
+{
+    font-size: 11px;
+    font-weight: normal;
+    /*padding-left: 10px; /*color: #e23130;*/
+    white-space: nowrap;
+    /*text-align: right;*/
+    background-color: #F5F5F0;
+    color: #3C3B27;
+    float: right;
+}
+
+.messagecontainer ul.messagelist
+{
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.messagecontainer li.messageitem
+{
+    margin-bottom: 2px;
+}
+
+/*		Message board overrides         */
+
+/*===================================*/
+/*  PageErrorBox overrides           */
+/*===================================*/
+.messagecontainer .PageErrorBox
+{
+    color: #3C3B27;
+    border: 0;
+    padding: 10px 10px 10px 60px;
+    background-image: url(../Images/error.gif);
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 200px;
+}
+
+.messagecontainer .PageErrorBox ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.messagecontainer .PageErrorBox .header
+{
+    color: #3C3B27;
+    font-weight: bold;
+    font-size: 18px;
+}
+.messagecontainer .PageErrorBox .headerbox
+{
+    padding-bottom: 8px;
+}
+/*===================================*/
+/*  PageErrorBox overrides end       */
+/*===================================*/
+
+/*===================================*/
+/*  ErrorBox overrides		         */
+/*===================================*/
+.messagecontainer .ErrorBox
+{
+    color: #3C3B27;
+    border: dotted 1px #e23130;
+    padding: 10px 10px 10px 50px;
+    background-image: url(../Images/warning_big.gif);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 16px;
+}
+
+
+.messagecontainer .ErrorBox li.messageitem
+{
+    color: #e23130;
+}
+
+.messagecontainer .ErrorBox a, .messagecontainer .ErrorBox a:hover
+{
+    color: #336699;
+}
+
+.ErrorBox .failed {
+    background-color: yellow;
+}
+
+/*===================================*/
+/*  ErrorBox overrides end           */
+/*===================================*/
+
+/*===================================*/
+/*  WarnBox overrides		         */
+/*===================================*/
+.messagecontainer .WarnBox
+{
+    color: #336699;
+    border: dotted 1px #336699;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+    background-image: url(../Images/warning_big.gif);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    min-height: 16px;
+}
+
+.messagecontainer .WarnBox .header, .messagecontainer .WarnBox .timestamp
+{
+    color: #336699;
+}
+
+
+.messagecontainer .WarnBox ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.messagecontainer .WarnBox .WarnImage
+{
+    background-image: url(../Images/warning_big.gif);
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.messagecontainer .facadeMessageContainer
+{
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/*===================================*/
+/*  WarnBox overrides end           */
+/*===================================*/
+
+/*===================================*/
+/*  ApisBox overrides		         */
+/*===================================*/
+.messagecontainer .ApisBox
+{
+    color: #5A593A;
+    border: solid 1px #D3D79A;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+    background-image: url(../Images/warning_gray.gif);
+    background-position: 13px 15px;
+    background-repeat: no-repeat;
+    background-color: #FEFFD3;
+    min-height: 16px;
+}
+
+/*===================================*/
+/*  WarnBox overrides end           */
+/*===================================*/
+
+/*===================================*/
+/*  InfoBox overrides		         */
+/*===================================*/
+.messagecontainer .InfoBox
+{
+    border: #858569 1px solid;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+    background-image: url(../Images/info_big.gif);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    min-height: 16px;
+}
+
+.messagecontainer .InfoBox ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.messagecontainer .InfoBox table.viewtable
+{
+    margin-top: 5px;
+}
+
+/*===================================*/
+/*  InfoBox overrides end           */
+/*===================================*/
+
+.messagecontainer .SpainDiscountDocumentsBox
+{
+    color: #5A593A;
+    border: solid 1px #D3D79A;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+    background-image: url(../Images/warning_gray.gif);
+    background-position: 13px 15px;
+    background-repeat: no-repeat;
+    background-color: #FEFFD3;
+    min-height: 16px;
+}
+
+
+/*===================================*/
+/*		Message board end			 */
+/*===================================*/
+
+/*===================*/
+/* Standard list box */
+/*===================*/
+
+table.listboxtable
+{
+    color: #5C5B47;
+    border-bottom: 1px solid #DFDECE;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    empty-cells: show;
+    border-spacing: 0px;
+}
+table th.listboxheader, table td.listboxheader
+{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #EFEEE6;
+}
+table.listboxtable td, table.listboxtable th
+{
+    vertical-align: top;
+    text-align: left;
+}
+
+table.listboxtable td.listboxcellfirst, table.listboxtable td.listboxcelllast, table.listboxtable td.listboxcell
+{
+    padding: 5px;
+    border-top: 1px solid #D8D8D1;
+}
+
+table.listboxtable tr.evenrow td
+{
+    background-color: #E5E6E1;
+}
+
+table.listboxtable tr.oddrow td
+{
+    background-color: #FFFFFF;
+}
+
+table.listboxtable td.listboxcellfirst
+{
+    border-left: 1px solid #DFDECE;
+}
+table.listboxtable td.listboxcelllast
+{
+    border-right: 1px solid #DFDECE;
+}
+table.listboxtable td.rightcell, table.listboxtable th.rightcell
+{
+    text-align: right;
+}
+table.listboxtable td.centercell, table.listboxtable th.centercell
+{
+    text-align: center;
+}
+table.listboxtable td.spending
+{
+    color: #0000FF;
+}
+table.listboxtable td.earning
+{
+}
+/*=======================*/
+/* Standard list box end */
+/*=======================*/
+
+/*=======================*/
+/* Link button			 */
+/*=======================*/
+a.button, a.buttondisabled, a.buttonnofocus, a.buttonfixedwide, a.buttonsearch, a.buttonalternative, a.buttoncancel, a.buttonalternativefixedwide, a.buttonalternativefixedwide:active, a.buttonalternativefixedwide:visited, a.buttonalternativefixedwide:hover, a.buttonalternativefixedwide:link, a.button:active, a.button:visited, a.button:hover, a.button:link, a.buttondisabled:active, a.buttondisabled:visited, a.buttondisabled:hover, a.buttondisabled:link, a.buttonnofocus:active, a.buttonnofocus:visited, a.buttonnofocus:hover, a.buttonnofocus:link, a.buttonalternative:active, a.buttonalternative:visited, a.buttonalternative:hover, a.buttonalternative:link, a.buttonfixedwide:active, a.buttonfixedwide:visited, a.buttonfixedwide:hover, a.buttonfixedwide:link, a.buttonsearch:active, a.buttonsearch:visited, a.buttonsearch:hover, a.buttonsearch:link, a.buttoncancel:active, a.buttoncancel:visited, a.buttoncancel:hover, a.buttoncancel:link, .linkbuttoncontainer a, .linkbuttoncontainer a:active, .linkbuttoncontainer a:visited, .linkbuttoncontainer a:hover, .linkbuttoncontainer a:link
+{
+    font-family: Arial,sans-serif,Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 8px;
+    letter-spacing: normal;
+    background-color: #f42536;
+    border-top: solid 2px #EA7066;
+    border-right: solid 2px #871E16;
+    border-bottom: solid 2px #871E16;
+    border-left: solid 2px #EA7066;
+    text-align: center
+}
+
+.linkbuttoncontainer a.buttoncampign, .linkbuttoncontainer a.buttoncampign:visited, .linkbuttoncontainer a.buttoncampign:active, .linkbuttoncontainer a.buttoncampign:hover, .linkbuttoncontainer a.buttoncampign:link
+{
+    background-color: #DFDECE;
+    border-top-color: #EFEEE6;
+    border-left-color: #EFEEE6;
+    border-right-color: #858569;
+    border-bottom-color: #858569;
+    font-weight: normal;
+    font-size: 13px;
+    color: #3C3B27;
+}
+.linkbuttoncontainer a.buttoncampign:hover
+{
+    background-color: #EAE7DA;
+}
+
+.linkbuttoncontainer a.printbutton, .linkbuttoncontainer a.printbutton:visited, .linkbuttoncontainer a.printbutton:active, .linkbuttoncontainer a.printbutton:hover, .linkbuttoncontainer a.printbutton:link
+{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 160px;
+}
+
+/*f24d5a*/
+a.button:hover, a.buttonfixedwide:hover, a.buttonsearch:hover, .linkbuttoncontainer a:hover
+{
+    background-color: #E13223;
+}
+
+a.buttondisabled, a.buttondisabled:active, a.buttondisabled:visited, a.buttondisabled:hover, a.buttondisabled:link
+{
+    color: #858569;
+    background-color: #EBEBE4;
+    border-bottom-color: #858569;
+    border-left-color: #E5E4DC;
+    border-right-color: #858569;
+    border-top-color: #E5E4DC;
+    cursor: auto;
+}
+
+a.buttonnofocus, a.buttonnofocus:visited, a.buttonnofocus:active, a.buttonnofocus:hover, a.buttonnofocus:link
+{
+    color: #3C3B27;
+    background-color: #DFDECE;
+    border-bottom-color: #858569;
+    border-left-color: #EFEEE6;
+    border-right-color: #858569;
+    border-top-color: #EFEEE6;
+}
+
+a.buttonalternative, a.buttonalternative:active, a.buttonalternative:visited, a.buttonalternative:hover, a.buttonalternative:link, a.buttonalternativefixedwide, a.buttonalternativefixedwide:active, a.buttonalternativefixedwide:visited, a.buttonalternativefixedwide:hover, a.buttonalternativefixedwide:link
+{
+    color: #3C3B27;
+    background-color: #DFDECE;
+    border-top-color: #EFEEE6;
+    border-left-color: #EFEEE6;
+    border-right-color: #858569;
+    border-bottom-color: #858569;
+}
+a.buttonfixedwide, a.buttonfixedwidedisabled, a.buttonalternativefixedwide
+{
+    width: 300px;
+}
+a.buttonalternative:hover, a.buttonalternativefixedwide:hover, a.buttonnofocus:hover
+{
+    background-color: #EAE7DA;
+}
+a.buttonfixedwidedisabled
+{
+    color: #858569;
+    background-color: #EBEBE4;
+    border-bottom-color: #858569;
+    border-left-color: #E5E4DC;
+    border-right-color: #858569;
+    border-top-color: #E5E4DC;
+}
+
+a.buttoncancel, a.buttoncancel:active, a.buttoncancel:visited, a.buttoncancel:hover, a.buttoncancel:link
+{
+    color: #3C3B27;
+    background-color: #848484;
+    border-bottom-color: #585858;
+    border-left-color: #C4C4C4;
+    border-right-color: #585858;
+    border-top-color: #C4C4C4;
+}
+
+a.buttoncancel:hover
+{
+    background-color: #949494;
+}
+
+/*=======================*/
+/* Link button end		 */
+/*=======================*/
+/*=======================*/
+/* buttoncontainer			 */
+/*=======================*/
+.buttoncontainer input
+{
+    font-family: Arial,sans-serif,Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 8px;
+    letter-spacing: normal;
+    background-color: #f42536;
+    border-top: solid 2px #EA7066;
+    border-right: solid 2px #871E16;
+    border-bottom: solid 2px #871E16;
+    border-left: solid 2px #EA7066;
+    white-space: pre;
+    line-height: normal !important;
+    word-spacing: normal;
+}
+.buttoncontainer input:hover
+{
+    background-color: #E13223;
+}
+.buttoncontainer input:active
+{
+    background-color: #f23a49;
+}
+
+/*buttonseatmap*/
+.buttoncontainer input.buttonseatmap
+{
+    background-color: #45B845;
+    border: 2px outset #45B845;
+    padding: 0 6px;
+    text-indent: 0;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.buttoncontainer input.buttonseatmap:hover
+{
+    background-color: #4DD64D;
+}
+.buttoncontainer input.buttonseatmap:active
+{
+    border: 2px inset #45B845;
+    background-color: #45B845;
+}
+/*buttonseatmap end*/
+
+/* newsdesksearch_button_narrowbutton */
+.buttoncontainer input.newsdesksearch_button_narrowbutton
+{
+    width: 100%;
+    margin-top: 10px;
+}
+/* newsdesksearch_button_narrowbutton end*/
+
+/* newsdesksearch_button_widebutton */
+.buttoncontainer input.newsdesksearch_button_widebutton
+{
+    margin: 0 0 0 10px;
+}
+
+/* newsdesksearch_button_widebutton end */
+
+.pressrelease_pdflink
+{
+    background-image: url("~/Images/Icons/pdficon.gif");
+    margin-right: 10px;
+}
+
+.pressrelease_doclink
+{
+    background-image: url("~/Images/Icons/doc.gif");
+    margin-right: 10px;
+}
+
+/*=======================*/
+/* buttoncontainer end	 */
+/*=======================*/
+/*=======================*/
+/* bodymenubuttoncontainer*/
+/*=======================*/
+
+.bodymenubuttoncontainer a, .bodymenubuttoncontainer a:active, .bodymenubuttoncontainer a:visited, .bodymenubuttoncontainer a:link, .bodymenubuttoncontainer a:hover
+{
+    color: #5C5B47;
+    cursor: pointer;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background-color: Transparent;
+}
+.bodymenubuttoncontainer a:hover
+{
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 1px solid #DFDECE;
+}
+
+.bodymenubuttoncontainer a.readonly, .bodymenubuttoncontainer a.readonly:active, .bodymenubuttoncontainer a.readonly:visited, .bodymenubuttoncontainer a.readonly:link, .bodymenubuttoncontainer a.readonly:hover
+{
+    color: Silver;
+    text-decoration: none;
+    cursor: default;
+    border: 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: Transparent;
+}
+.bodymenubuttoncontainer img.readonly
+{
+    filter: alpha(opacity=40);
+    -moz-opacity: .40;
+    opacity: .40;
+    cursor: default;
+}
+
+.bodymenubuttonbar
+{
+    text-align: right;
+    margin-top: 10px;
+    padding-top: 2px;
+    border-top: solid 1px #cacaae;
+}
+
+/*=============================*/
+/* bodymenubuttoncontainer end */
+/*=============================*/
+
+
+
+/*=======================*/
+/* Related Links list    */
+/*=======================*/
+.sectionboxrelatedlinks
+{
+    padding: 0 0 5px 0;
+}
+.sectionboxrelatedlinks .bodybox ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    border-left: 0;
+    margin-left: 0;
+}
+.sectionboxrelatedlinks .bodybox ul li
+{
+    padding-bottom: 5px;
+}
+
+/*=======================*/
+/* Related Links list end*/
+/*=======================*/
+
+/*=======================*/
+/* Article listing 		 */
+/*=======================*/
+.sectionboxarticlelisting ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.sectionboxarticlelisting ul li
+{
+    display: block;
+}
+
+/*=======================*/
+/* Article listing end   */
+/*=======================*/
+
+/*=======================*/
+/* image listing 		 */
+/*=======================*/
+/*.sectionboximagelisting ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sectionboximagelisting ul img
+{
+    border: solid #000000 1px;
+} */
+
+/*=======================*/
+/* Image listing end     */
+/*=======================*/
+
+/*=======================*/
+/* Squared box link listing*/
+/*=======================*/
+.sectionboxsquaredboxes
+{
+    background-image: url("../Images/Background/2_0/squarebox.gif");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #A21824;
+    background-color: #DC282E;
+    margin-bottom: 10px;
+}
+.sectionboxsquaredboxes ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.sectionboxsquaredboxes li
+{
+    background-image: url(../Images/Background/2_0/listbox_square.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.sectionboxsquaredboxes .headerbox
+{
+    border-bottom: 1px solid #E4DBD4;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.sectionboxsquaredboxes ul li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sectionboxsquaredboxes ul li a:hover
+{
+    text-decoration: underline;
+}
+/*=======================*/
+/* Squared box link listing end*/
+/*=======================*/
+
+/*=======================*/
+/* Maintenance box		 */
+/*=======================*/
+.maintenancebox
+{
+    background-color: #EEEDDA;
+    padding: 10px;
+    border: 1px solid #B5B596;
+    margin-bottom: 10px;
+}
+.maintenancebox h2
+{
+    color: #000000;
+}
+.maintenancebox .maintenanceImageLeft
+{
+    padding-right: 10px;
+    float: left;
+}
+
+.maintenancebox .maintenanceImageRight
+{
+    padding-left: 10px;
+    float: right;
+}
+.maintenancebox .maintenanceImages
+{
+    padding-bottom: 5px;
+}
+
+.maintenancebox .maintenanceText span, .maintenancebox .maintenanceText a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*=======================*/
+/* Maintenance box end	 */
+/*=======================*/
+
+/*=======================*/
+/* Incident Message box		 */
+/*=======================*/
+
+.layoutcellcenterwide.incidentPage {
+    padding:30px;
+    background-color: #f4f4f4;
+    background-image: url('../Images/Background/2_0/searchbox.gif');
+    background-repeat: repeat-x;
+    border: 1px solid #c1c1c1;
+}
+
+.incidentMessageBox
+{
+    background-color: #f4f4f4; /*#D9D9D9;*/
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #c1c1c1;
+    background-image: url('../Images/Background/2_0/searchbox.gif');
+    background-repeat: repeat-x;
+}
+.incidentMessageBox h2
+{
+    color: #000000;
+}
+.incidentMessageBox .incidentImageLeft
+{
+    padding-right: 10px;
+    float: left;
+}
+
+.incidentMessageBox .incidentImageRight
+{
+    padding-left: 10px;
+    float: right;
+}
+.incidentMessageBox .incidentImages
+{
+    padding-bottom: 5px;
+}
+.incidentMessageBox .lastActivatedTime
+{
+    color: #3d3c2f;
+    font-family: Arial,Sans-Serif,Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+}
+.incidentMessageBox .incidentText span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.incidentMessageBox .incidentText a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration:underline;
+}
+/*=======================*/
+/* Incident Message box end	 */
+/*=======================*/
+
+
+/*=======================*/
+/* Topimage/contentimage box*/
+/*=======================*/
+.topimagebox
+{
+    padding: 5px 0 5px 0;
+}
+.topimagebox label
+{
+    display: block;
+    color: #858585;
+    cursor: text;
+}
+.contentimagebox
+{
+    padding: 5px 0 5px 0;
+}
+.contentimagebox label
+{
+    display: block;
+    color: #858585;
+    cursor: text;
+}
+/*=======================*/
+/* Topimage/contentimage box end*/
+/*=======================*/
+
+
+/*=======================*/
+/* Misc content styles   */
+/*=======================*/
+
+.contentboxintro
+{
+}
+
+.contentboxintro p
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-weight: bold;
+}
+
+.contentboxxform
+{
+    padding: 5px 0 5px 0;
+}
+
+.hiddentitle
+{
+    display: none;
+}
+
+.displaynone
+{
+    display: none;
+}
+
+
+/*=======================*/
+/* Misc content styles end*/
+/*=======================*/
+
+/*=======================*/
+/* Search styles		 */
+/*=======================*/
+.sectionboxsearch
+{
+    padding-bottom: 10px;
+}
+.sectionboxsearch .searchlabel
+{
+    font-size: 15px;
+    color: #B2AE94;
+    font-weight: 700;
+}
+
+.sectionboxsearch .searchlabel, .sectionboxsearch .searcharea .searchtext
+{
+    padding-right: 5px;
+}
+
+.sectionboxsearch .searchtext input
+{
+    width: 200px;
+}
+.sectionboxsearch .searchbutton input
+{
+    background-color: #f42536;
+    border-top-color: #EA7066;
+    border-right-color: #871E16;
+    border-bottom-color: #871E16;
+    border-left-color: #EA7066;
+    border-style: solid; /*border:0; 	/*font-size: 14px; 	font-weight: bold;*/
+    color: #FFFFFF;
+}
+.sectionboxsearch .searcharea .searchbutton input:hover
+{
+    background-color: #E13223;
+}
+
+.sectionboxsearch .quicksearcharea .searchtext
+{
+    padding-bottom: 5px;
+}
+
+.sectionboxsearch .quicksearcharea .searchbutton
+{
+}
+
+.sectionboxsearchresult
+{
+    padding-bottom: 5px;
+}
+.sectionboxsearchresult ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    border-left: 0;
+    margin-left: 0;
+}
+
+.sectionboxsearchresult ul p
+{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/*=======================*/
+/* Search styles end	 */
+/*=======================*/
+/*=======================*/
+/* Language selector	 */
+/*=======================*/
+select.languagemenu, select.languagemenu option
+{
+    background-position: right center;
+    background-repeat: no-repeat; /*margin-right: 10px;*/
+}
+/*=======================*/
+/* Language selector end */
+/*=======================*/
+
+
+/*=======================*/
+/* WebPart styles		 */
+/*=======================*/
+
+.webpart img
+{
+    display: block;
+}
+.horizontalzonespace6 .webpart
+{
+    margin-right: 6px;
+    padding-bottom: 10px;
+}
+.horizontalzonespace6 .webpart.single, .horizontalzonespace6 .webpart.last
+{
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.webpart
+{
+    padding-bottom: 10px;
+}
+.webpart.last
+{
+    padding-bottom: 0;
+}
+
+
+/*
+.layoutcellleft .webpart.single
+{
+	padding-top: 10px;
+}
+.layoutcellcenter .webpart
+{
+	padding-bottom: 10px;
+}
+*/
+.centerbottomzone
+{
+    /*padding-top: 10px;*/
+}
+.centerbottomzone .webpart
+{
+    /*padding-top: 10px;*/
+}
+
+.centerbottomzone .webpart, .centerbottomzone .webpart.last
+{
+    padding-bottom: 0 !important;
+}
+.centerbottomzone .webpart
+{
+    padding-right: 10px;
+}
+.centerbottomzone .webpart.last, .centerbottomzone .singel
+{
+    padding-right: 0;
+}
+/*=======================*/
+/* WebPart styles    end */
+/*=======================*/
+.clearer
+{
+    clear: both;
+    line-height: 0;
+}
+.horizontalline
+{
+    margin-top: 10px;
+}
+/*=======================*/
+/* Watermark			 */
+/*=======================*/
+.watermark
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #cccccc;
+    border: 1px solid #858569;
+}
+/*=======================*/
+/* Watermark end		 */
+/*=======================*/
+
+/*==========================================*/
+/*  SECTIONBOX CONFIRM PROFILE OVERRIDES 	*/
+/*==========================================*/
+.sectionboxconfirmprofile
+{
+    color: #336699;
+    border: dotted 1px #e23130;
+    padding: 5px 5px 5px 50px;
+    position: relative;
+    background-image: url(../Images/warning_big.gif);
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    min-height: 28px;
+}
+.sectionboxconfirmprofile .headerbox
+{
+    border: 0;
+    background-color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sectionboxconfirmprofile .bodybox
+{
+    background-color: #FFFFFF;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 10px;
+}
+.sectionboxconfirmprofile .buttonbarbox
+{
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 10px;
+}
+/*==========================================*/
+/*  SECTIONBOX CONFIRM PROFILE OVERRIDES 	*/
+/*==========================================*/
+
+/*==================================*/
+/*  SECTIONBOX NEWSLETTER OVERRIDES	*/
+/*==================================*/
+.sectionboxnewsletterinfo select.select3col
+{
+    width: 180px;
+}
+.sectionboxnewsletterinfo input.textbox
+{
+    width: 180px;
+}
+/*==================================*/
+/*  SECTIONBOX NEWSLETTER OVERRIDES	*/
+/*==================================*/
+
+/*==================================*/
+/*  SECTIONBOX sectionboxcrewrequest*/
+/*==================================*/
+.sectionboxcrewrequest .buttonbarbox
+{
+    text-align: right;
+}
+/*========================================*/
+/*  SECTIONBOX sectionboxcrewrequest end  */
+/*========================================*/
+
+/*==========================================*/
+/*  STANDARD TABLES						 	*/
+/*==========================================*/
+
+table.nastable
+{
+    empty-cells: show;
+}
+
+table.nastable td
+{
+    padding: 2px;
+}
+
+/*==========================================*/
+/*  STANDARD TABLES end 				 	*/
+/*==========================================*/
+
+/*==========================================*/
+/*  IpPages Layout start				 	*/
+/*==========================================*/
+
+.ippagesleftcolumn
+{
+    width: 20%;
+}
+
+.ippagesrightcolumn
+{
+    width: 20%;
+}
+
+/*==========================================*/
+/*  IpPages Layout end				 	*/
+/*==========================================*/
+
+/*==================================*/
+/*  SECTIONBOX GROUPTRAVEL OVERRIDES	*/
+/*==================================*/
+.sectionboxgrouptravel .countryselect
+{
+    width: 206px;
+}
+.sectionboxgrouptravel .colgroup .col1
+{
+    width: 40%;
+}
+.sectionboxgrouptravel .colgroup .col2
+{
+    width: 60%;
+}
+.sectionboxgrouptravel textarea
+{
+    width: 200px;
+}
+.sectionboxgrouptravel .phoneinput
+{
+    width: 84px;
+}
+
+/*==================================*/
+/*  SECTIONBOX GROUPTRAVEL OVERRIDES	*/
+/*==================================*/
+
+.pagecontentprint
+{
+    background-color: #FFFFFF;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    margin: 0 auto 0 auto;
+    min-height: 500px;
+    width: 980px;
+    overflow: visible !important;
+}
+/*
+.disabled{ background-color: #EBEBE4;border: 1px solid #AFAFAF;   padding: 2px;}
+*/
+
+/*==================================*/
+/*  REWARD BAG                      */
+/*==================================*/
+
+.aligntop
+{
+    vertical-align: text-top;
+}
+
+/*==================================*/
+/*  RESSELECTION REFERENCE INFO     */
+/*==================================*/
+
+.referenceinfobox
+{
+    padding: 3px 5px 10px;
+}
+.charterlogoresselection img.charterimage
+{
+    height: 32px;
+    padding-bottom: 5px;
+}
+.charterlogoresdetails img.charterimage
+{
+    height: 50px;
+}
+.referenceinfo
+{
+}
+.charterbookinginfo
+{
+}
+
+.sectionboxcharter img.ui-datepicker-trigger
+{
+    display: inline;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+/*======================================*/
+/* EXPENSE REFUND FORM                  */
+/*======================================*/
+table.expenseRefundTable
+{
+    width: 100%;
+    border-right: solid 1px #CACAAE;
+    border-left: solid 1px #CACAAE;
+    border-top: solid 1px #CACAAE;
+    border-bottom: solid 1px #CACAAE;
+}
+
+.expenseRefundColgroup .date
+{
+    width: 15%;
+}
+.expenseRefundColgroup .type
+{
+    width: 20%;
+}
+.expenseRefundColgroup .currency
+{
+    width: 10%;
+}
+.expenseRefundColgroup .country
+{
+    width: 20%;
+}
+.expenseRefundColgroup .amount
+{
+    width: 10%;
+}
+.expenseRefundColgroup .comment
+{
+    width: 20%;
+}
+.expenseRefundColgroup .delete
+{
+    width: 5%;
+}
+
+table.expenseRefundTable thead th
+{
+    font-weight: bold;
+    text-align: left;
+    padding: 4px;
+    vertical-align: top;
+    border-bottom: solid 1px #CACAAE;
+    background-color: #EAE9DD;
+}
+
+table.expenseRefundTable tbody td
+{
+    vertical-align: top;
+    padding: 0px;
+}
+
+table.expenseRefundTable tbody td.contentcell
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+table.expenseRefundTable tr.oddrow td
+{
+    background-color: #F5F5F0;
+}
+
+table.expenseRefundTable tr.evenrow td
+{
+    background-color: #EFEEE6;
+}
+
+table.expenseRefundTableAdd tbody td.contentcell, table.formConfirmation tbody td.contentcell
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+table.expenseRefundTableAdd tbody td.checkboxcell
+{
+    padding-left: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+table.formConfirmation tbody td.checkboxcell
+{
+    padding: 7px 20px 7px 4px;
+}
+table.expenseRefundTableAdd .mandatory, table.formConfirmation .mandatory
+{
+    color: #e23130;
+}
+table.expenseRefundTableAdd tbody td.contentcell textarea.commentBox
+{
+    resize: none;
+    height: 40px;
+    width: 450px;
+}
+table.expenseRefundTableAdd tbody td.contentcell textarea.largeTextArea
+{
+    resize: none;
+    height: 100px;
+    width: 500px;
+}
+
+div.addExpenseButtonContainer
+{
+    border-top: 1px solid #CACAAE;
+    margin-top: 10px;
+    padding-top: 2px;
+    text-align: right;
+}
+
+div.addExpenseButtonContainer a.addExpenseButton
+{
+    margin-top: 5px;
+}
+
+.accountInfo input.disabledTextBox
+{
+    background-color: #EBEBE4;
+}
+.checkboxLabel
+{
+    cursor: pointer;
+}
+/*======================================*/
+/* EXPENSE REFUND FORM END              */
+/*======================================*/
+
+
+/*==================================*/
+/*  SECTIONBOX sectionboxfreetextavacode OVERRIDES	*/
+/*==================================*/
+.sectionboxfreetextavacode .bodybox
+{
+    border: 0px;
+    border-top: solid 1px #CACAAE;
+    border-bottom: solid 1px #CACAAE;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    background-color: Transparent;
+}
+.sectionboxfreetextavacode .bodybox .body
+{
+    text-align: right;
+}
+
+.sectionboxfreetextavacode .formlabel
+{
+    padding-right: 5px;
+    font-weight: normal;
+}
+
+.sectionboxfreetextavacode .forminput
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sectionboxfreetextavacode select.select
+{
+    width: 140px;
+}
+
+.sectionboxfreetextavacode input.textbox
+{
+    width: 140px;
+}
+
+
+/*==================================*/
+/*  SECTIONBOX AVACODES end			*/
+/*==================================*/
+/*===================================*/
+/*     webpartcontainer 	         */
+/*===================================*/
+.webpartcontainer .headerbox
+{
+    border-top: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: none;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    color: #565648;
+    font-size: 16px;
+    background-color: #F4F4F4;
+}
+.webpartcontainer .headerbox .header
+{
+    border-bottom: 1px solid #B7B297;
+    text-align: left;
+}
+.webpartcontainer .subheaderbox
+{
+}
+.webpartcontainer .subheaderbox .subheader
+{
+}
+.webpartcontainer .bodybox
+{
+    padding: 5px 15px;
+    color: #3C3B27;
+    border-top: none;
+    border-left: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    background-color: #F4F4F4;
+}
+.webpartcontainer .bodybox .body .bodyheader
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.webpartcontainer .bodybox .body .buttonbox
+{
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+}
+.webpartcontainer .bodybox .body .linkbox
+{
+    text-align: right;
+}
+.webpartcontainer .bodybox .body .textbox
+{
+    width: 180px;
+}
+.webpartcontainer .bodybox .body .textboxshort
+{
+    width: 60px;
+}
+.webpartcontainer .footerbox
+{
+    padding: 2px 0px 0px 0px;
+}
+.webpartcontainer .footerbox .footer
+{
+}
+.webpartcontainer td.rightcell
+{
+    text-align: right;
+    float: right;
+}
+.webpartcontainer p
+{
+    margin: 0.3em 0px;
+}
+.webpartcontainer hr
+{
+    color: #B7B297;
+    margin: 0.5em auto;
+    border: 1px inset;
+}
+.webpartcontainer div.separator
+{
+    margin: 10px 0px 0px 0px;
+    border: none;
+}
+.webpartcontainer .label
+{
+    font-weight: normal;
+}
+.webpartcontainer .formlabel
+{
+    font-weight: bold;
+}
+/*===================================*/
+/*     webpartcontainer end          */
+/*===================================*/
+
+/*===================================*/
+/*     COMMENTS start                */
+/*===================================*/
+
+
+.commentscolgroup .col1
+{
+    width: 20%;
+}
+
+.commentscolgroup .col2
+{
+    width: 30%;
+}
+
+.commentscolgroup .col3
+{
+    width: 50%;
+}
+
+.commentscolgroup .col4
+{
+    width: 70%;
+}
+
+.ressummaryroutetable .commentcell
+{
+}
+
+.booking-comments td.commentcell
+{
+    border-top-width: 1px;
+    border-top-color: #333333;
+    border-top-style: dotted;
+}
+.booking-comments textarea
+{
+    width: 99%;
+}
+.booking-comments th
+{
+    font-weight: bold;
+}
+
+.booking-comments td
+{
+    padding: 5px;
+    text-align: left;
+}
+
+.booking-comments .comments-button-box
+{
+    text-align: right;
+}
+
+.booking-comments .comments-button-box .buttoncontainer
+{
+    display: inline;
+}
+
+/*===================================*/
+/*     COMMENTS end                  */
+/*===================================*/
+
+.detailsGrid { width: 100%; background-color: #FFF; margin: 5px 0 10px 0; border: solid 1px #858569; border-collapse:collapse; }
+.detailsGrid th { padding: 5px; color: #4A452A; background: #CACAAE repeat-x top; border-left: solid 1px #858569; font-weight:bold;border-bottom: 1px solid #858569; font-size:13px; font-weight:bold}
+.detailsGrid td { padding: 5px; border: solid 1px #CACAAE; color: #717171;} 
+.detailsGrid div.spacer{height:18px;}
+.detailsGrid a:hover {text-decoration: underline; }
+.detailsGrid th a,
+.detailsGrid td a{color:#E23130}
+.detailsGrid td a:hover { color: #E23130; text-decoration: underline; }
+.detailsGrid .alt { background: #F0F0F0 repeat-x top; }
+.detailsGrid .pgr {background: #ECEBE0 repeat-x top; }
+.detailsGrid .pgr table { margin: 5px 0;  }
+.detailsGrid .pgr td { padding: 0 6px; font-weight: bold; color: gray; line-height: 12px; }   
+.detailsGrid .pgr td td{border:none;border-left: solid 1px #666; }
+.detailsGrid .pgr a { color: #E23130; text-decoration: underline; }
+.detailsGrid .pgr a:hover {}
+.detailsGrid th.sortasc a,
+.detailsGrid th.sortdesc a{display:block; padding:0 4px 0 12px;}
+.detailsGrid th.sortasc a{ background:url(BackOffice/asc.gif) no-repeat;}
+.detailsGrid th.sortdesc a{ background:url(BackOffice/desc.gif) no-repeat;}
+
+ #header {  }
+ #header_content {     width: 100%;
+   position: absolute; 
+   
+     text-align: center;
+     vertical-align: bottom;
+     bottom: 1px;
+ }
+
+.level1, .level2, .level3, .level4, .level5
+{
+
+    position: relative;
+   border-radius: 5px 5px 0px 0px; 
+-moz-border-radius: 5px 5px 0px 0px; 
+-webkit-border-radius: 5px 5px 0px 0px;
+    
+}
+.level1, .level2, .level3
+
+{
+    border: 1px solid #d14c51;
+    border-bottom: 0px;
+    background-color: #F83E45;
+
+
+}
+
+.level4, .level5
+{
+    border: 1px solid #b6a0a0;
+    border-bottom: 0px;
+    background-color: #CABEB2;
+
+}
+
+.level1
+{ height: 9px;}
+.level2
+{ height: 20px;}
+.level3
+{ height: 25px;}
+.level4
+{ height: 34px;}
+.level5
+{ height: 43px;}
+.infoicon
+{text-decoration: underline;
+                            
+   cursor:pointer;}
+
+.pricetable
+{text-decoration: none;
+           color: #e23130;
+float: left;
+clear: left;
+background-image: url("../Images/Ava/icon-table.png");
+background-position: left 0px top 0px;
+background-repeat: no-repeat;
+list-style-image: none;
+list-style-type: none;
+margin-left: 11px;
+padding-bottom: 6px;
+padding-left: 17px;
+             
+   cursor:pointer;}
+
+.strikethrough {
+     text-decoration: line-through;
+}
